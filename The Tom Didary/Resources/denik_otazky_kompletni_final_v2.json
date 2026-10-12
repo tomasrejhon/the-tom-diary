@@ -1,0 +1,1832 @@
+[
+  {
+    "datum": "1. leden",
+    "otazka": "Jaký sen si chceš letos splnit?",
+    "emoji": "🌠"
+  },
+  {
+    "datum": "2. leden",
+    "otazka": "Cítíš se vyspělejší než před rokem?",
+    "emoji": "🌱"
+  },
+  {
+    "datum": "3. leden",
+    "otazka": "Jaký je tvůj oblíbený citát či motto?",
+    "emoji": "💬"
+  },
+  {
+    "datum": "4. leden",
+    "otazka": "Jak by ses v pěti větách představil/a cizí osobě?",
+    "emoji": "👋"
+  },
+  {
+    "datum": "5. leden",
+    "otazka": "Jak bys ohodnotil/a dnešní den na stupnici 1-5? Proč?",
+    "emoji": "⭐"
+  },
+  {
+    "datum": "6. leden",
+    "otazka": "Vyjmenuj své přátele.",
+    "emoji": "🫂"
+  },
+  {
+    "datum": "7. leden",
+    "otazka": "Do čeho momentálně vkládáš nejvíc svého úsilí?",
+    "emoji": "💪"
+  },
+  {
+    "datum": "8. leden",
+    "otazka": "Na která místa na světě se chceš jednou v životě podívat?",
+    "emoji": "🌍"
+  },
+  {
+    "datum": "9. leden",
+    "otazka": "Co tě v nejbližší době čeká a nemine?",
+    "emoji": "📅"
+  },
+  {
+    "datum": "10. leden",
+    "otazka": "V čem se vyznáš lépe než tvé okolí?",
+    "emoji": "🧠"
+  },
+  {
+    "datum": "11. leden",
+    "otazka": "Žiješ naplno?",
+    "emoji": "✨"
+  },
+  {
+    "datum": "12. leden",
+    "otazka": "Na koho nejvíc myslíš?",
+    "emoji": "💭"
+  },
+  {
+    "datum": "13. leden",
+    "otazka": "Za co jsi vděčný/á?",
+    "emoji": "🙏"
+  },
+  {
+    "datum": "14. leden",
+    "otazka": "Trávil/a jsi dnes více času činnostmi, které máš rád/a, nebo tomu bylo naopak?",
+    "emoji": "⏳"
+  },
+  {
+    "datum": "15. leden",
+    "otazka": "Co ti vždy zvedne náladu?",
+    "emoji": "😊"
+  },
+  {
+    "datum": "16. leden",
+    "otazka": "Jakou nadpřirozenou schopnost bys chtěl/a mít?",
+    "emoji": "🪄"
+  },
+  {
+    "datum": "17. leden",
+    "otazka": "Koho jsi naposledy políbil/a?",
+    "emoji": "💋"
+  },
+  {
+    "datum": "18. leden",
+    "otazka": "Kdy, kde a za jakých podmínek dostáváš ty nejlepší nápady?",
+    "emoji": "💡"
+  },
+  {
+    "datum": "19. leden",
+    "otazka": "Byl dnešek krásnější než včerejšek?",
+    "emoji": "🌤️"
+  },
+  {
+    "datum": "20. leden",
+    "otazka": "Jakým výzvám nyní čelíš?",
+    "emoji": "🧗"
+  },
+  {
+    "datum": "21. leden",
+    "otazka": "Kdo je tvým největším vzorem?",
+    "emoji": "🌟"
+  },
+  {
+    "datum": "22. leden",
+    "otazka": "Bez čeho si nedokážeš představit svůj den?",
+    "emoji": "☕"
+  },
+  {
+    "datum": "23. leden",
+    "otazka": "Jak jsi strávil/a poslední víkend?",
+    "emoji": "🗓️"
+  },
+  {
+    "datum": "24. leden",
+    "otazka": "Kterým směrem se dnes nejvíc ubíraly tvé myšlenky?",
+    "emoji": "💭"
+  },
+  {
+    "datum": "25. leden",
+    "otazka": "Kdy jsi to nevzdal/a?",
+    "emoji": "💪"
+  },
+  {
+    "datum": "26. leden",
+    "otazka": "Na jaké schůzce jsi byl/a naposledy?",
+    "emoji": "🤝"
+  },
+  {
+    "datum": "27. leden",
+    "otazka": "Z čeho máš dnes radost?",
+    "emoji": "🎉"
+  },
+  {
+    "datum": "28. leden",
+    "otazka": "Co je dnes jinak, než kdy dřív?",
+    "emoji": "🔄"
+  },
+  {
+    "datum": "29. leden",
+    "otazka": "Naplňuje tě tvá současná práce/tvé studium?",
+    "emoji": "💼"
+  },
+  {
+    "datum": "30. leden",
+    "otazka": "Jak si představuješ svůj život za pět let?",
+    "emoji": "🔮"
+  },
+  {
+    "datum": "31. leden",
+    "otazka": "Daří se ti plnit tvá letošní předsevzetí?",
+    "emoji": "🎯"
+  },
+  {
+    "datum": "1. únor",
+    "otazka": "Jak obvykle začíná tvůj den?",
+    "emoji": "🌅"
+  },
+  {
+    "datum": "2. únor",
+    "otazka": "S kým trávíš nejvíc času?",
+    "emoji": "🫂"
+  },
+  {
+    "datum": "3. únor",
+    "otazka": "Co nového ses dnes dozvěděl/a?",
+    "emoji": "📚"
+  },
+  {
+    "datum": "4. únor",
+    "otazka": "Která kapitola tvého života je pro tebe dnes již uzavřená?",
+    "emoji": "📖"
+  },
+  {
+    "datum": "5. únor",
+    "otazka": "Co jsi naposledy zorganizoval/a?",
+    "emoji": "📋"
+  },
+  {
+    "datum": "6. únor",
+    "otazka": "Vnímáš, že jsi něčeho součástí? Čeho?",
+    "emoji": "🧩"
+  },
+  {
+    "datum": "7. únor",
+    "otazka": "Co bys dělal/a jinak, kdyby tvé kroky nikdo nesoudil?",
+    "emoji": "🕊️"
+  },
+  {
+    "datum": "8. únor",
+    "otazka": "Kterým svým koníčkům se v současnosti věnuješ nejaktivněji?",
+    "emoji": "🎨"
+  },
+  {
+    "datum": "9. únor",
+    "otazka": "Jaké překážky jsi v poslední době zdolal/a?",
+    "emoji": "🧗"
+  },
+  {
+    "datum": "10. únor",
+    "otazka": "Jak by se změnil tvůj život, kdybys vyhrál/a milión korun?",
+    "emoji": "💰"
+  },
+  {
+    "datum": "11. únor",
+    "otazka": "Za co ses naposledy omluvil/a?",
+    "emoji": "🤝"
+  },
+  {
+    "datum": "12. únor",
+    "otazka": "Co tě dnes překvapilo?",
+    "emoji": "😮"
+  },
+  {
+    "datum": "13. únor",
+    "otazka": "Co tě nejvíc stresuje?",
+    "emoji": "🌪️"
+  },
+  {
+    "datum": "14. únor",
+    "otazka": "Jaký byl tvůj dnešní valentýnský příběh?",
+    "emoji": "💘"
+  },
+  {
+    "datum": "15. únor",
+    "otazka": "Jakou dobrou a zlou zprávu ses dnes dozvěděl/a?",
+    "emoji": "📰"
+  },
+  {
+    "datum": "16. únor",
+    "otazka": "Kdy naposledy jsi zkusil/a něco poprvé v životě?",
+    "emoji": "🆕"
+  },
+  {
+    "datum": "17. únor",
+    "otazka": "Kdyby měl každý den hodinu navíc, jak bys s ní naložil/a?",
+    "emoji": "⏳"
+  },
+  {
+    "datum": "18. únor",
+    "otazka": "Co vnímáš jako největší problém současné společnosti?",
+    "emoji": "🌍"
+  },
+  {
+    "datum": "19. únor",
+    "otazka": "Kdo ve tvém okolí nejvíc potřebuje tvou podporu?",
+    "emoji": "🤲"
+  },
+  {
+    "datum": "20. únor",
+    "otazka": "Od koho ti přišla poslední zpráva/email a co v ní/v něm bylo sděleno?",
+    "emoji": "📩"
+  },
+  {
+    "datum": "21. únor",
+    "otazka": "Je něco, co jsi nemohl/a udělat před rokem, ale můžeš udělat dnes?",
+    "emoji": "🔓"
+  },
+  {
+    "datum": "22. únor",
+    "otazka": "Co upřednostňuješ, vesnici, nebo město? Uveď důvody.",
+    "emoji": "🏙️"
+  },
+  {
+    "datum": "23. únor",
+    "otazka": "Máš plán B?",
+    "emoji": "🧭"
+  },
+  {
+    "datum": "24. únor",
+    "otazka": "Jak se dnes cítíš?",
+    "emoji": "🌡️"
+  },
+  {
+    "datum": "25. únor",
+    "otazka": "Kterou povinnost jsi dnes s klidným svědomím vynechal/a?",
+    "emoji": "💤"
+  },
+  {
+    "datum": "26. únor",
+    "otazka": "Dodržíš, co slíbíš?",
+    "emoji": "🤞"
+  },
+  {
+    "datum": "27. únor",
+    "otazka": "Co je dnes napsáno ve tvém diáři?",
+    "emoji": "📔"
+  },
+  {
+    "datum": "28. únor",
+    "otazka": "Za co jsi v poslední době utratil/a větší částku peněz?",
+    "emoji": "💸"
+  },
+  {
+    "datum": "29. únor",
+    "otazka": "Jak hodnotíš zpětně 4 roky od posledního 29.2.?",
+    "emoji": "⏳"
+  },
+  {
+    "datum": "1. březen",
+    "otazka": "Co jsi dnes ve svém volném čase dělal/a?",
+    "emoji": "🎨"
+  },
+  {
+    "datum": "2. březen",
+    "otazka": "Které pravdě se nechceš podívat do očí?",
+    "emoji": "🪞"
+  },
+  {
+    "datum": "3. březen",
+    "otazka": "Jak nejčastěji trávíte společné rodinné chvíle?",
+    "emoji": "🏡"
+  },
+  {
+    "datum": "4. březen",
+    "otazka": "Kdy naposledy jsi napsal/a někomu osobní vzkaz?",
+    "emoji": "📝"
+  },
+  {
+    "datum": "5. březen",
+    "otazka": "Kdo z tvých přátel je nejzábavnější?",
+    "emoji": "😂"
+  },
+  {
+    "datum": "6. březen",
+    "otazka": "O která témata se nyní nejvíc zajímáš?",
+    "emoji": "🔎"
+  },
+  {
+    "datum": "7. březen",
+    "otazka": "Jak bys popsal/a životní období, ve kterém se právě nacházíš?",
+    "emoji": "📖"
+  },
+  {
+    "datum": "8. březen",
+    "otazka": "Jaké je tvé současné pracovní nasazení?",
+    "emoji": "💼"
+  },
+  {
+    "datum": "9. březen",
+    "otazka": "Kdyby se stal dnešní den písničkou, která by to byla?",
+    "emoji": "🎵"
+  },
+  {
+    "datum": "10. březen",
+    "otazka": "Na jakém večírku jsi byl/a naposledy?",
+    "emoji": "🥳"
+  },
+  {
+    "datum": "11. březen",
+    "otazka": "Co tě nejvíc baví?",
+    "emoji": "🎯"
+  },
+  {
+    "datum": "12. březen",
+    "otazka": "O čem víc mluvíš, nežli konáš?",
+    "emoji": "💬"
+  },
+  {
+    "datum": "13. březen",
+    "otazka": "Koho miluješ?",
+    "emoji": "❤️"
+  },
+  {
+    "datum": "14. březen",
+    "otazka": "Co/kdo je na poslední fotografii ve tvém telefonu?",
+    "emoji": "📸"
+  },
+  {
+    "datum": "15. březen",
+    "otazka": "Kdy jsi byl/a naposledy v kině?",
+    "emoji": "🎬"
+  },
+  {
+    "datum": "16. březen",
+    "otazka": "S kterou známou osobností by ses rád/a potkal/a a na co by ses jí/ho zeptal/a?",
+    "emoji": "🌟"
+  },
+  {
+    "datum": "17. březen",
+    "otazka": "S kým sis dnes nejlépe popovídal/a?",
+    "emoji": "💬"
+  },
+  {
+    "datum": "18. březen",
+    "otazka": "Co je tvou nejsilnější stránkou a kde ji nejvíce využíváš?",
+    "emoji": "💪"
+  },
+  {
+    "datum": "19. březen",
+    "otazka": "Jaký problém bys chtěl/a vyřešit?",
+    "emoji": "🧩"
+  },
+  {
+    "datum": "20. březen",
+    "otazka": "O čem byl tvůj poslední příspěvek na sociálních sítích?",
+    "emoji": "📱"
+  },
+  {
+    "datum": "21. březen",
+    "otazka": "Co se snažíš dělat v životě jinak než ostatní?",
+    "emoji": "🛤️"
+  },
+  {
+    "datum": "22. březen",
+    "otazka": "Čeho se obáváš?",
+    "emoji": "🌧️"
+  },
+  {
+    "datum": "23. březen",
+    "otazka": "Kdybys mohl/a být v současné době kdekoliv na světě, kde by to bylo?",
+    "emoji": "🌍"
+  },
+  {
+    "datum": "24. březen",
+    "otazka": "Za co nejraději utrácíš?",
+    "emoji": "🛍️"
+  },
+  {
+    "datum": "25. březen",
+    "otazka": "Jak blízké je ti slovo „stereotyp“?",
+    "emoji": "🔁"
+  },
+  {
+    "datum": "26. březen",
+    "otazka": "Na co čekáš?",
+    "emoji": "⏳"
+  },
+  {
+    "datum": "27. březen",
+    "otazka": "Co si chceš z dnešního dne uchovat v paměti?",
+    "emoji": "🧠"
+  },
+  {
+    "datum": "28. březen",
+    "otazka": "V čem vítězíš a v čem prohráváš?",
+    "emoji": "🏆"
+  },
+  {
+    "datum": "29. březen",
+    "otazka": "Která tři slova tě nyní napadnou jako první v souvislosti se slovem „práce“?",
+    "emoji": "💼"
+  },
+  {
+    "datum": "30. březen",
+    "otazka": "Který ze svých cílů jsi v poslední době dotáhl/a do zdárného konce?",
+    "emoji": "✅"
+  },
+  {
+    "datum": "31. březen",
+    "otazka": "Kdybys měl/a tu možnost nahlédnout do budoucnosti, co by tě nejvíc zajímalo?",
+    "emoji": "🔮"
+  },
+  {
+    "datum": "1. duben",
+    "otazka": "Co tě dnes rozesmálo?",
+    "emoji": "😂"
+  },
+  {
+    "datum": "2. duben",
+    "otazka": "Jak vypadá tvůj běžný den?",
+    "emoji": "🗓️"
+  },
+  {
+    "datum": "3. duben",
+    "otazka": "Kdo tě v poslední době mile překvapil?",
+    "emoji": "🎁"
+  },
+  {
+    "datum": "4. duben",
+    "otazka": "Ve které oblasti svého života jsi nejspokojenější?",
+    "emoji": "☀️"
+  },
+  {
+    "datum": "5. duben",
+    "otazka": "Která oblast tvého života by stála za zlepšení?",
+    "emoji": "🌱"
+  },
+  {
+    "datum": "6. duben",
+    "otazka": "Jak bys popsal/a pěti přídavnými jmény dnešní den?",
+    "emoji": "📝"
+  },
+  {
+    "datum": "7. duben",
+    "otazka": "Do které restaurace chodíš nejčastěji?",
+    "emoji": "🍽️"
+  },
+  {
+    "datum": "8. duben",
+    "otazka": "Jaké tradice udržujete ve vaší rodině?",
+    "emoji": "🏡"
+  },
+  {
+    "datum": "9. duben",
+    "otazka": "Kdo jsi?",
+    "emoji": "🪞"
+  },
+  {
+    "datum": "10. duben",
+    "otazka": "Máš vrásky z lásky?",
+    "emoji": "💘"
+  },
+  {
+    "datum": "11. duben",
+    "otazka": "Co pro tebe znamená úspěch?",
+    "emoji": "🏆"
+  },
+  {
+    "datum": "12. duben",
+    "otazka": "V čí společnosti jsi prožil/a včerejší večer?",
+    "emoji": "🌙"
+  },
+  {
+    "datum": "13. duben",
+    "otazka": "Která emoce u tebe dnes převládala?",
+    "emoji": "🎭"
+  },
+  {
+    "datum": "14. duben",
+    "otazka": "Máš hlavu v oblacích, nebo stojíš nohama pevně na zemi?",
+    "emoji": "☁️"
+  },
+  {
+    "datum": "15. duben",
+    "otazka": "Kdyby sis mohl/a vybrat kohokoliv na světě, s kým bys měl/a tu možnost jít na večeři, kdo by to byl a proč?",
+    "emoji": "🍽️"
+  },
+  {
+    "datum": "16. duben",
+    "otazka": "Co považuješ za dokonalé?",
+    "emoji": "💎"
+  },
+  {
+    "datum": "17. duben",
+    "otazka": "Nad čím nejčastěji přemýšlíš „co by, kdyby“?",
+    "emoji": "💭"
+  },
+  {
+    "datum": "18. duben",
+    "otazka": "Kdo je tvůj nejbližší kolega/spolužák?",
+    "emoji": "🤝"
+  },
+  {
+    "datum": "19. duben",
+    "otazka": "Jak se chystáš naložit s našetřenými penězi?",
+    "emoji": "💰"
+  },
+  {
+    "datum": "20. duben",
+    "otazka": "Kdyby se ti dnes mohla splnit tři přání, která by to byla?",
+    "emoji": "🌠"
+  },
+  {
+    "datum": "21. duben",
+    "otazka": "Co nejbláznivějšího jsi v poslední době udělal/a?",
+    "emoji": "🤪"
+  },
+  {
+    "datum": "22. duben",
+    "otazka": "Jak bys popsal/a svůj milostný život?",
+    "emoji": "❤️"
+  },
+  {
+    "datum": "23. duben",
+    "otazka": "Jsi finančně stabilní?",
+    "emoji": "💰"
+  },
+  {
+    "datum": "24. duben",
+    "otazka": "Kterého hudebního interpreta posloucháš nejčastěji?",
+    "emoji": "🎧"
+  },
+  {
+    "datum": "25. duben",
+    "otazka": "O čem důležitém ses dnes rozhodoval/a?",
+    "emoji": "⚖️"
+  },
+  {
+    "datum": "26. duben",
+    "otazka": "Jak často si najdeš čas na své koníčky?",
+    "emoji": "🎨"
+  },
+  {
+    "datum": "27. duben",
+    "otazka": "Co tě v současnosti nejvíc trápí?",
+    "emoji": "🌧️"
+  },
+  {
+    "datum": "28. duben",
+    "otazka": "Jaký je tvůj oblíbený film?",
+    "emoji": "🎬"
+  },
+  {
+    "datum": "29. duben",
+    "otazka": "Jaký nejdůležitější slib jsi dal/a sám/sama sobě?",
+    "emoji": "🤞"
+  },
+  {
+    "datum": "30. duben",
+    "otazka": "Zpříjemnil/a jsi dnes někomu den? Jestli ano, komu a jak?",
+    "emoji": "🌷"
+  },
+  {
+    "datum": "1. květen",
+    "otazka": "Od koho jsi dnes dostal/a polibek pod rozkvetlou třešní?",
+    "emoji": "🌸"
+  },
+  {
+    "datum": "2. květen",
+    "otazka": "Co/kdo tě nejvíc rozčiluje?",
+    "emoji": "😤"
+  },
+  {
+    "datum": "3. květen",
+    "otazka": "Co je pro tebe typické?",
+    "emoji": "🪞"
+  },
+  {
+    "datum": "4. květen",
+    "otazka": "Kterou dovednost by ses chtěl/a jednou naučit, ale stále to oddaluješ?",
+    "emoji": "📚"
+  },
+  {
+    "datum": "5. květen",
+    "otazka": "S kým jsi dnes obědval/a?",
+    "emoji": "🍽️"
+  },
+  {
+    "datum": "6. květen",
+    "otazka": "Co je dnes pro tebe nejdůležitější?",
+    "emoji": "⭐"
+  },
+  {
+    "datum": "7. květen",
+    "otazka": "Kdy ses v poslední době styděl/a a proč?",
+    "emoji": "😳"
+  },
+  {
+    "datum": "8. květen",
+    "otazka": "Je něco, z čeho máš dlouhodobě strach a chtěl/a bys ho překonat?",
+    "emoji": "🦁"
+  },
+  {
+    "datum": "9. květen",
+    "otazka": "Jak by vypadal tvůj ideální den?",
+    "emoji": "🌅"
+  },
+  {
+    "datum": "10. květen",
+    "otazka": "S kým bys chtěl/a zlepšit vztahy?",
+    "emoji": "🤝"
+  },
+  {
+    "datum": "11. květen",
+    "otazka": "Kdo je ve tvém okolí nejvíc pozitivní?",
+    "emoji": "☀️"
+  },
+  {
+    "datum": "12. květen",
+    "otazka": "Zažíváš občas pocit osamění?",
+    "emoji": "🌙"
+  },
+  {
+    "datum": "13. květen",
+    "otazka": "Čeho lituješ?",
+    "emoji": "🍂"
+  },
+  {
+    "datum": "14. květen",
+    "otazka": "S čím důvěrným ses naposledy svěřil/a své mámě?",
+    "emoji": "🫂"
+  },
+  {
+    "datum": "15. květen",
+    "otazka": "Vybavíš si detaily chvíle, kdy ses cítil/a opravdu šťastný/á?",
+    "emoji": "😊"
+  },
+  {
+    "datum": "16. květen",
+    "otazka": "Kdyby byly všechny profese stejně odměňovány, čím by ses chtěl/a živit?",
+    "emoji": "💼"
+  },
+  {
+    "datum": "17. květen",
+    "otazka": "Umíš říct „ne“, i když všichni chtějí slyšet tvé „ano“?",
+    "emoji": "✋"
+  },
+  {
+    "datum": "18. květen",
+    "otazka": "Co děláš pro své fyzické a psychické zdraví?",
+    "emoji": "🧘"
+  },
+  {
+    "datum": "19. květen",
+    "otazka": "Co jsi dnes mohl/a udělat jinak?",
+    "emoji": "🔄"
+  },
+  {
+    "datum": "20. květen",
+    "otazka": "Má nějaká věc, ke které máš vztah, jméno?",
+    "emoji": "🧸"
+  },
+  {
+    "datum": "21. květen",
+    "otazka": "Více mluvíš, nebo nasloucháš?",
+    "emoji": "👂"
+  },
+  {
+    "datum": "22. květen",
+    "otazka": "Který z tvých nápadů by stál za realizaci?",
+    "emoji": "💡"
+  },
+  {
+    "datum": "23. květen",
+    "otazka": "Co ti dnes zlepšilo den?",
+    "emoji": "🌤️"
+  },
+  {
+    "datum": "24. květen",
+    "otazka": "Který film bys chtěl/a prožít na vlastní kůži?",
+    "emoji": "🎬"
+  },
+  {
+    "datum": "25. květen",
+    "otazka": "Žiješ, abys jedl/a, nebo jíš, abys žil/a?",
+    "emoji": "🍲"
+  },
+  {
+    "datum": "26. květen",
+    "otazka": "Jaká je tvá definice lásky?",
+    "emoji": "❤️"
+  },
+  {
+    "datum": "27. květen",
+    "otazka": "Kdy jsi dnes vstával/a a z jakého důvodu?",
+    "emoji": "⏰"
+  },
+  {
+    "datum": "28. květen",
+    "otazka": "Kdyby za 24 hodin nastal konec světa, jak bys tento zbývající čas využil/a?",
+    "emoji": "🌍"
+  },
+  {
+    "datum": "29. květen",
+    "otazka": "Kdy jsi naposledy lhal/a a proč?",
+    "emoji": "🤥"
+  },
+  {
+    "datum": "30. květen",
+    "otazka": "Jaká maličkost by toho ve tvém životě hodně změnila?",
+    "emoji": "🦋"
+  },
+  {
+    "datum": "31. květen",
+    "otazka": "Ohledně čeho jsi naposledy s někým telefonoval/a?",
+    "emoji": "📞"
+  },
+  {
+    "datum": "1. červen",
+    "otazka": "V jakých situacích se cítíš být znovu dítětem?",
+    "emoji": "🧸"
+  },
+  {
+    "datum": "2. červen",
+    "otazka": "Kam se chystáš na dovolenou?",
+    "emoji": "🏖️"
+  },
+  {
+    "datum": "3. červen",
+    "otazka": "Jak odpovíš na otázku: „Co máš nového?“",
+    "emoji": "🆕"
+  },
+  {
+    "datum": "4. červen",
+    "otazka": "Žiješ přítomným okamžikem, nebo raději myslíš víc na budoucnost?",
+    "emoji": "⏳"
+  },
+  {
+    "datum": "5. červen",
+    "otazka": "S výsledkem jaké své práce jsi spokojený/á?",
+    "emoji": "✅"
+  },
+  {
+    "datum": "6. červen",
+    "otazka": "Polož si nějakou otázku a odpověz si na ni.",
+    "emoji": "❓"
+  },
+  {
+    "datum": "7. červen",
+    "otazka": "Cítíš se pod tlakem? Pokud ano, z jakého důvodu?",
+    "emoji": "🌪️"
+  },
+  {
+    "datum": "8. červen",
+    "otazka": "Kdy jsi v poslední době zariskoval/a a vyplatilo se to?",
+    "emoji": "🎲"
+  },
+  {
+    "datum": "9. červen",
+    "otazka": "Co tě dnes obzvlášť bavilo?",
+    "emoji": "🎉"
+  },
+  {
+    "datum": "10. červen",
+    "otazka": "Jaké dialogy nejčastěji vedeš se svým vnitřním já?",
+    "emoji": "💭"
+  },
+  {
+    "datum": "11. červen",
+    "otazka": "Kdy jsi naposledy plakal/a?",
+    "emoji": "💧"
+  },
+  {
+    "datum": "12. červen",
+    "otazka": "Jaké vlastnosti by měl/a mít tvůj/tvoje partner/ka?",
+    "emoji": "❤️"
+  },
+  {
+    "datum": "13. červen",
+    "otazka": "Kdy naposledy jsi poslechl/a hlas svého srdce?",
+    "emoji": "💗"
+  },
+  {
+    "datum": "14. červen",
+    "otazka": "U koho jsi byl/a naposledy na návštěvě?",
+    "emoji": "🏡"
+  },
+  {
+    "datum": "15. červen",
+    "otazka": "Kde právě jsi?",
+    "emoji": "📍"
+  },
+  {
+    "datum": "16. červen",
+    "otazka": "Kdyby sis mohl/a zopakovat kteroukoliv část dnešního dne, která by to byla a proč?",
+    "emoji": "🔁"
+  },
+  {
+    "datum": "17. červen",
+    "otazka": "Na které společenské události ses v poslední době opravdu dobře bavil/a?",
+    "emoji": "🥳"
+  },
+  {
+    "datum": "18. červen",
+    "otazka": "O čem sis naposledy upřímně popovídal/a se svým otcem?",
+    "emoji": "🫂"
+  },
+  {
+    "datum": "19. červen",
+    "otazka": "Na co se těšíš?",
+    "emoji": "🤩"
+  },
+  {
+    "datum": "20. červen",
+    "otazka": "Dlužíš víc ty ostatním, nebo oni tobě?",
+    "emoji": "🤝"
+  },
+  {
+    "datum": "21. červen",
+    "otazka": "Jak jsi prožil/a nejdelší den v roce?",
+    "emoji": "☀️"
+  },
+  {
+    "datum": "22. červen",
+    "otazka": "Kolik kliků momentálně uděláš?",
+    "emoji": "💪"
+  },
+  {
+    "datum": "23. červen",
+    "otazka": "Jak si přeješ, aby tě vnímali ostatní?",
+    "emoji": "🪞"
+  },
+  {
+    "datum": "24. červen",
+    "otazka": "Co nejčastěji snídáš?",
+    "emoji": "🥣"
+  },
+  {
+    "datum": "25. červen",
+    "otazka": "O čem nerad/a mluvíš?",
+    "emoji": "💬"
+  },
+  {
+    "datum": "26. červen",
+    "otazka": "Směřuješ svou energii tím správným směrem?",
+    "emoji": "🧭"
+  },
+  {
+    "datum": "27. červen",
+    "otazka": "Kdy si říkáš: „Proč právě já?“",
+    "emoji": "❓"
+  },
+  {
+    "datum": "28. červen",
+    "otazka": "Kdyby sis mohl/a vybrat jakýkoliv talent, který by to byl a proč?",
+    "emoji": "🌟"
+  },
+  {
+    "datum": "29. červen",
+    "otazka": "Jak doposud hodnotíš letošní rok?",
+    "emoji": "📊"
+  },
+  {
+    "datum": "30. červen",
+    "otazka": "Kdyby ti zítřejším dnem začaly půlroční prázdniny, jak bys s nimi naložil/a?",
+    "emoji": "🏖️"
+  },
+  {
+    "datum": "1. červenec",
+    "otazka": "S jakou myšlenkou ses dnes probudil/a?",
+    "emoji": "🌅"
+  },
+  {
+    "datum": "2. červenec",
+    "otazka": "Kdy a co jsi naposledy vlastnoručně vytvořil/a?",
+    "emoji": "🛠️"
+  },
+  {
+    "datum": "3. červenec",
+    "otazka": "Kdy jsi naposledy dostala/daroval květiny?",
+    "emoji": "💐"
+  },
+  {
+    "datum": "4. červenec",
+    "otazka": "S jakými zážitky máš spojené oblíbené písničky?",
+    "emoji": "🎶"
+  },
+  {
+    "datum": "5. červenec",
+    "otazka": "Kterou dobře míněnou radu jsi poslechl/a a jsi tomu rád/a?",
+    "emoji": "💬"
+  },
+  {
+    "datum": "6. červenec",
+    "otazka": "Co sis v poslední době opravdu užil/a?",
+    "emoji": "🎉"
+  },
+  {
+    "datum": "7. červenec",
+    "otazka": "Jaký je tvůj nejoblíbenější kousek v šatníku?",
+    "emoji": "👕"
+  },
+  {
+    "datum": "8. červenec",
+    "otazka": "Kterému jídlu neodoláš?",
+    "emoji": "🍲"
+  },
+  {
+    "datum": "9. červenec",
+    "otazka": "Čeho bys chtěl/a v životě dosáhnout a co pro to nyní děláš?",
+    "emoji": "🎯"
+  },
+  {
+    "datum": "10. červenec",
+    "otazka": "Jaký dobrý skutek jsi v poslední době udělal/a?",
+    "emoji": "🤲"
+  },
+  {
+    "datum": "11. červenec",
+    "otazka": "Který druh umění tě nejvíc zajímá?",
+    "emoji": "🎨"
+  },
+  {
+    "datum": "12. červenec",
+    "otazka": "Jak by se změnil tvůj život, kdyby v něm bylo vše tak, jak si přeješ?",
+    "emoji": "🌠"
+  },
+  {
+    "datum": "13. červenec",
+    "otazka": "Kterými slovy bys popsal/a dnešní den?",
+    "emoji": "📝"
+  },
+  {
+    "datum": "14. červenec",
+    "otazka": "Kterých svých povahových vlastností si ceníš?",
+    "emoji": "💎"
+  },
+  {
+    "datum": "15. červenec",
+    "otazka": "Existuje nějaká otázka, na kterou bys nechtěl/a znát pravdivou odpověď?",
+    "emoji": "❓"
+  },
+  {
+    "datum": "16. červenec",
+    "otazka": "Čemu jste se společně s rodinou naposledy od srdce zasmáli?",
+    "emoji": "😂"
+  },
+  {
+    "datum": "17. červenec",
+    "otazka": "Jak rozvíjíš svůj potenciál?",
+    "emoji": "🌱"
+  },
+  {
+    "datum": "18. červenec",
+    "otazka": "Jsi zamilovaný/á?",
+    "emoji": "💘"
+  },
+  {
+    "datum": "19. červenec",
+    "otazka": "Jakou máš dnes náladu?",
+    "emoji": "🎭"
+  },
+  {
+    "datum": "20. červenec",
+    "otazka": "Která zkušenost z posledního období tě nejvíc posílila?",
+    "emoji": "💪"
+  },
+  {
+    "datum": "21. červenec",
+    "otazka": "Kdo a čím tě dnes inspiroval?",
+    "emoji": "💡"
+  },
+  {
+    "datum": "22. červenec",
+    "otazka": "Důvěřuješ, nebo prověřuješ?",
+    "emoji": "🔎"
+  },
+  {
+    "datum": "23. červenec",
+    "otazka": "Jaký sport máš nejraději a jak často se mu věnuješ?",
+    "emoji": "⚽"
+  },
+  {
+    "datum": "24. červenec",
+    "otazka": "Čím se nejraději odměňuješ?",
+    "emoji": "🎁"
+  },
+  {
+    "datum": "25. červenec",
+    "otazka": "Jak si můžeš udělat život jednodušším?",
+    "emoji": "🪶"
+  },
+  {
+    "datum": "26. červenec",
+    "otazka": "Které životní hodnoty jsou pro tebe nejdůležitější?",
+    "emoji": "🧭"
+  },
+  {
+    "datum": "27. červenec",
+    "otazka": "Kolik piv/drinků jsi vypil/a za poslední týden a s kým?",
+    "emoji": "🍻"
+  },
+  {
+    "datum": "28. červenec",
+    "otazka": "Co se za poslední rok nejvýrazněji změnilo ve tvém osobním životě?",
+    "emoji": "🔄"
+  },
+  {
+    "datum": "29. červenec",
+    "otazka": "Jaký obrázek by vystihoval tvůj dnešní den? Můžeš ho nakreslit!",
+    "emoji": "🖍️"
+  },
+  {
+    "datum": "30. červenec",
+    "otazka": "Pro co ses v poslední době nadchl/a?",
+    "emoji": "🔥"
+  },
+  {
+    "datum": "31. červenec",
+    "otazka": "Který zážitek z posledních dní si chceš zapamatovat?",
+    "emoji": "📸"
+  },
+  {
+    "datum": "1. srpen",
+    "otazka": "Kdy ses naposledy choval/a spontánně a jak to přijalo okolí?",
+    "emoji": "⚡"
+  },
+  {
+    "datum": "2. srpen",
+    "otazka": "Jakou knížku právě čteš?",
+    "emoji": "📖"
+  },
+  {
+    "datum": "3. srpen",
+    "otazka": "Co legračního se ti v poslední době přihodilo?",
+    "emoji": "😂"
+  },
+  {
+    "datum": "4. srpen",
+    "otazka": "Žárlíš?",
+    "emoji": "💚"
+  },
+  {
+    "datum": "5. srpen",
+    "otazka": "Jak silná je tvá vůle?",
+    "emoji": "💪"
+  },
+  {
+    "datum": "6. srpen",
+    "otazka": "Čím tě zaujali lidé, které jsi v poslední době poznal/a?",
+    "emoji": "🤝"
+  },
+  {
+    "datum": "7. srpen",
+    "otazka": "Která konstruktivní kritika tě posunula vpřed?",
+    "emoji": "🌱"
+  },
+  {
+    "datum": "8. srpen",
+    "otazka": "Jak často se vídáš se svou rodinou?",
+    "emoji": "🏡"
+  },
+  {
+    "datum": "9. srpen",
+    "otazka": "Kdo tě nejvíce brzdí a kdo naopak nejvíc podporuje?",
+    "emoji": "🤲"
+  },
+  {
+    "datum": "10. srpen",
+    "otazka": "Kam máš právě namířeno?",
+    "emoji": "🧭"
+  },
+  {
+    "datum": "11. srpen",
+    "otazka": "Kdybys psal/a blog, o čem by byl?",
+    "emoji": "✍️"
+  },
+  {
+    "datum": "12. srpen",
+    "otazka": "V co věříš?",
+    "emoji": "🕯️"
+  },
+  {
+    "datum": "13. srpen",
+    "otazka": "Na stupnici od 1-5 zhodnoť, jak jsi spokojený/á s tím, kolik vyděláváš.",
+    "emoji": "💰"
+  },
+  {
+    "datum": "14. srpen",
+    "otazka": "Očima koho by sis přál/a na pár hodin vidět svět?",
+    "emoji": "👀"
+  },
+  {
+    "datum": "15. srpen",
+    "otazka": "Jaký je tvůj životní styl?",
+    "emoji": "🌿"
+  },
+  {
+    "datum": "16. srpen",
+    "otazka": "Co neobvyklého se ti v poslední době přihodilo?",
+    "emoji": "✨"
+  },
+  {
+    "datum": "17. srpen",
+    "otazka": "S kým ses byl/a naposledy projít?",
+    "emoji": "🚶"
+  },
+  {
+    "datum": "18. srpen",
+    "otazka": "Kdy jsi naposledy zpíval/a nahlas?",
+    "emoji": "🎤"
+  },
+  {
+    "datum": "19. srpen",
+    "otazka": "Komu zavoláš jako prvnímu, když se ti přihodí něco skvělého?",
+    "emoji": "📞"
+  },
+  {
+    "datum": "20. srpen",
+    "otazka": "Jak blízká je ti spiritualita?",
+    "emoji": "🧘"
+  },
+  {
+    "datum": "21. srpen",
+    "otazka": "Komu ses svěřil/a se svým největším tajemstvím?",
+    "emoji": "🔐"
+  },
+  {
+    "datum": "22. srpen",
+    "otazka": "U čeho nejrychleji ztrácíš trpělivost?",
+    "emoji": "⏳"
+  },
+  {
+    "datum": "23. srpen",
+    "otazka": "Kdybys zítra neměl/a žádné povinnosti, jak bys trávil/a den?",
+    "emoji": "🏖️"
+  },
+  {
+    "datum": "24. srpen",
+    "otazka": "S kým sis naposledy hrál/a?",
+    "emoji": "🧩"
+  },
+  {
+    "datum": "25. srpen",
+    "otazka": "Na koho se zlobíš?",
+    "emoji": "😤"
+  },
+  {
+    "datum": "26. srpen",
+    "otazka": "Co u tebe platí? Vrána k vráně sedá, nebo protiklady se přitahují? Proč?",
+    "emoji": "🧲"
+  },
+  {
+    "datum": "27. srpen",
+    "otazka": "Jaké místo jsi v posledním roce navštívil/a poprvé v životě?",
+    "emoji": "🗺️"
+  },
+  {
+    "datum": "28. srpen",
+    "otazka": "Kam sis naposledy kupoval/a vstupenku?",
+    "emoji": "🎟️"
+  },
+  {
+    "datum": "29. srpen",
+    "otazka": "Kdy se ti vyplatilo naslouchat své intuici?",
+    "emoji": "🧭"
+  },
+  {
+    "datum": "30. srpen",
+    "otazka": "Jak se dnes projevila tvá kreativita?",
+    "emoji": "🎨"
+  },
+  {
+    "datum": "31. srpen",
+    "otazka": "Čeho chceš dosáhnout do roka od tohoto okamžiku?",
+    "emoji": "🎯"
+  },
+  {
+    "datum": "1. září",
+    "otazka": "Které dnešní setkání ti bylo nejmilejší.",
+    "emoji": "🤝"
+  },
+  {
+    "datum": "2. září",
+    "otazka": "Co/kdo ti dělá největší radost?",
+    "emoji": "😊"
+  },
+  {
+    "datum": "3. září",
+    "otazka": "Jak často přehodnocuješ svůj první dojem z lidí?",
+    "emoji": "👀"
+  },
+  {
+    "datum": "4. září",
+    "otazka": "Komu jsi již odpustil/a?",
+    "emoji": "🕊️"
+  },
+  {
+    "datum": "5. září",
+    "otazka": "Za co si dnes zasloužíš pochvalu?",
+    "emoji": "👏"
+  },
+  {
+    "datum": "6. září",
+    "otazka": "Jaký je tvůj recept na šťastný život?",
+    "emoji": "☀️"
+  },
+  {
+    "datum": "7. září",
+    "otazka": "Co bys řekl/a při přebírání svého vysněného ocenění?",
+    "emoji": "🏆"
+  },
+  {
+    "datum": "8. září",
+    "otazka": "Kdybys měl/a stroj času, jak bys s ním naložil/a?",
+    "emoji": "⏳"
+  },
+  {
+    "datum": "9. září",
+    "otazka": "Co dnes pro tebe bylo nejnáročnější?",
+    "emoji": "🧗"
+  },
+  {
+    "datum": "10. září",
+    "otazka": "Co pro tebe představuje skutečnou krásu?",
+    "emoji": "🌸"
+  },
+  {
+    "datum": "11. září",
+    "otazka": "Na kolik let se dnes cítíš?",
+    "emoji": "🎂"
+  },
+  {
+    "datum": "12. září",
+    "otazka": "Máš své rituály? Pokud ano, jaké?",
+    "emoji": "🕯️"
+  },
+  {
+    "datum": "13. září",
+    "otazka": "Co by ti nyní zlepšilo náladu?",
+    "emoji": "🌤️"
+  },
+  {
+    "datum": "14. září",
+    "otazka": "Co jsi naposledy vařil/a?",
+    "emoji": "🍳"
+  },
+  {
+    "datum": "15. září",
+    "otazka": "Kterých svých zlozvyků by ses rád/a zbavil/a?",
+    "emoji": "🔄"
+  },
+  {
+    "datum": "16. září",
+    "otazka": "Které dobré návyky si chceš vypěstovat?",
+    "emoji": "🌱"
+  },
+  {
+    "datum": "17. září",
+    "otazka": "Za co jsi naposledy poděkoval/a?",
+    "emoji": "🙏"
+  },
+  {
+    "datum": "18. září",
+    "otazka": "Kdy jsi byl/a naposledy na koncertě?",
+    "emoji": "🎤"
+  },
+  {
+    "datum": "19. září",
+    "otazka": "Za které tři skutečnosti jsi dnes nejvíc vděčný/á?",
+    "emoji": "🙏"
+  },
+  {
+    "datum": "20. září",
+    "otazka": "Rozhoduješ za sebe výhradně ty, nebo za tebe často rozhodne někdo jiný?",
+    "emoji": "🧭"
+  },
+  {
+    "datum": "21. září",
+    "otazka": "Které zvíře tě nejlépe vystihuje?",
+    "emoji": "🐾"
+  },
+  {
+    "datum": "22. září",
+    "otazka": "Které tvé letošní letní zážitky patří mezi nejvýjimečnější?",
+    "emoji": "☀️"
+  },
+  {
+    "datum": "23. září",
+    "otazka": "Jak by se jmenoval film o tvém současném životě?",
+    "emoji": "🎬"
+  },
+  {
+    "datum": "24. září",
+    "otazka": "Na kterou otázku bys odpověděl/a „ani málo, ani moc“?",
+    "emoji": "⚖️"
+  },
+  {
+    "datum": "25. září",
+    "otazka": "Komu jsi v poslední době řekl/a, jak moc pro tebe znamená?",
+    "emoji": "❤️"
+  },
+  {
+    "datum": "26. září",
+    "otazka": "Co plánuješ už dlouho udělat, ale ještě pro to nenastal ten správný čas?",
+    "emoji": "⏳"
+  },
+  {
+    "datum": "27. září",
+    "otazka": "Kdyby ses odstěhoval/a do zahraničí, co by ti nejvíc chybělo?",
+    "emoji": "🧳"
+  },
+  {
+    "datum": "28. září",
+    "otazka": "Převládá ve tvém životě pořádek, nebo chaos? Proč?",
+    "emoji": "🧩"
+  },
+  {
+    "datum": "29. září",
+    "otazka": "Kdy naposledy jsi byl/a na romantické večeři?",
+    "emoji": "🕯️"
+  },
+  {
+    "datum": "30. září",
+    "otazka": "Co by se změnilo, kdyby náhle zmizel všechen tvůj strach?",
+    "emoji": "🦁"
+  },
+  {
+    "datum": "1. říjen",
+    "otazka": "Co hledáš?",
+    "emoji": "🔎"
+  },
+  {
+    "datum": "2. říjen",
+    "otazka": "Kdo ti nejvíc chybí?",
+    "emoji": "🫂"
+  },
+  {
+    "datum": "3. říjen",
+    "otazka": "Kdy naposledy jsi sportoval/a?",
+    "emoji": "🏃"
+  },
+  {
+    "datum": "4. říjen",
+    "otazka": "S kým jsi včera usínal/a?",
+    "emoji": "🌙"
+  },
+  {
+    "datum": "5. říjen",
+    "otazka": "Které významné životní situace stojí za tím, kým dnes jsi?",
+    "emoji": "🛤️"
+  },
+  {
+    "datum": "6. říjen",
+    "otazka": "Co dělá tvůj domov tím pravým domovem?",
+    "emoji": "🏡"
+  },
+  {
+    "datum": "7. říjen",
+    "otazka": "Co tě nyní nejvíc zaměstnává?",
+    "emoji": "💼"
+  },
+  {
+    "datum": "8. říjen",
+    "otazka": "S kým jsi byl/a naposledy na drinku/na kávě?",
+    "emoji": "☕"
+  },
+  {
+    "datum": "9. říjen",
+    "otazka": "Co se dnes událo ve světě?",
+    "emoji": "🌍"
+  },
+  {
+    "datum": "10. říjen",
+    "otazka": "Znáš své hranice, nebo je překračuješ? Jak často?",
+    "emoji": "🚧"
+  },
+  {
+    "datum": "11. říjen",
+    "otazka": "Co tě dokáže pohltit natolik, že ztratíš pojem o čase?",
+    "emoji": "⏳"
+  },
+  {
+    "datum": "12. říjen",
+    "otazka": "Co tě nejvíc motivuje?",
+    "emoji": "🔥"
+  },
+  {
+    "datum": "13. říjen",
+    "otazka": "Které přátele jsi poznal/a díky svým koníčkům?",
+    "emoji": "🫂"
+  },
+  {
+    "datum": "14. říjen",
+    "otazka": "Jak se máš?",
+    "emoji": "🌤️"
+  },
+  {
+    "datum": "15. říjen",
+    "otazka": "Co děláš pro to, aby ses každý den cítil/a dobře?",
+    "emoji": "🌿"
+  },
+  {
+    "datum": "16. říjen",
+    "otazka": "Co nejdražšího sis v poslední době pořídil/a?",
+    "emoji": "🛍️"
+  },
+  {
+    "datum": "17. říjen",
+    "otazka": "Jakou radu bys dal/a sám/sama sobě, kdybys potkal/a své mladší já?",
+    "emoji": "💬"
+  },
+  {
+    "datum": "18. říjen",
+    "otazka": "Kdo tě nejčastěji objímá?",
+    "emoji": "🤗"
+  },
+  {
+    "datum": "19. říjen",
+    "otazka": "S kým sis v poslední době opravdu dobře popovídal/a?",
+    "emoji": "💬"
+  },
+  {
+    "datum": "20. říjen",
+    "otazka": "Na kterou z tvých oblíbených činností ti zbývá příliš málo času?",
+    "emoji": "🎨"
+  },
+  {
+    "datum": "21. říjen",
+    "otazka": "Co tě baví na tvé práci/studiu?",
+    "emoji": "💼"
+  },
+  {
+    "datum": "22. říjen",
+    "otazka": "V čem jsi týmový hráč a v čem spíše samostatná jednotka?",
+    "emoji": "🤝"
+  },
+  {
+    "datum": "23. říjen",
+    "otazka": "Od čeho/koho by ses rád/a oprostil/a?",
+    "emoji": "🕊️"
+  },
+  {
+    "datum": "24. říjen",
+    "otazka": "Byl dnes tvůj přístup k práci aktivní, nebo spíše pasivní? Proč?",
+    "emoji": "⚡"
+  },
+  {
+    "datum": "25. říjen",
+    "otazka": "Jak pečuješ o to, co je pro tebe v životě nejcennější?",
+    "emoji": "💎"
+  },
+  {
+    "datum": "26. říjen",
+    "otazka": "Co bys chtěl/a, aby zůstalo tak, jak je dnes?",
+    "emoji": "📸"
+  },
+  {
+    "datum": "27. říjen",
+    "otazka": "Jak velké je tvé sebevědomí?",
+    "emoji": "🦁"
+  },
+  {
+    "datum": "28. říjen",
+    "otazka": "Jak nejraději trávíš svůj volný čas?",
+    "emoji": "🎨"
+  },
+  {
+    "datum": "29. říjen",
+    "otazka": "Čím jsi naposledy někoho obdaroval/a?",
+    "emoji": "🎁"
+  },
+  {
+    "datum": "30. říjen",
+    "otazka": "Kolik času jsi dnes strávil/a na sociálních sítích?",
+    "emoji": "📱"
+  },
+  {
+    "datum": "31. říjen",
+    "otazka": "Jakou si před lidmi nasazuješ masku?",
+    "emoji": "🎭"
+  },
+  {
+    "datum": "1. listopad",
+    "otazka": "Co jsi dnes dělal/a?",
+    "emoji": "🗓️"
+  },
+  {
+    "datum": "2. listopad",
+    "otazka": "Jak můžeš pravidelně přispívat k tomu, aby byl svět lepším místem?",
+    "emoji": "🌍"
+  },
+  {
+    "datum": "3. listopad",
+    "otazka": "Kdy a kde jsi byl/a naposledy se svými přáteli?",
+    "emoji": "🫂"
+  },
+  {
+    "datum": "4. listopad",
+    "otazka": "Jak bujná je tvá sexuální fantazie?",
+    "emoji": "💭"
+  },
+  {
+    "datum": "5. listopad",
+    "otazka": "Jsi upřímný/upřímná sám/sama k sobě?",
+    "emoji": "🪞"
+  },
+  {
+    "datum": "6. listopad",
+    "otazka": "Která vzpomínka z dětství se ti nyní vybaví jako první?",
+    "emoji": "🧸"
+  },
+  {
+    "datum": "7. listopad",
+    "otazka": "Kdo k tobě vzhlíží?",
+    "emoji": "🌟"
+  },
+  {
+    "datum": "8. listopad",
+    "otazka": "Co jsi naposledy četl/a?",
+    "emoji": "📖"
+  },
+  {
+    "datum": "9. listopad",
+    "otazka": "Na kterých svých úkolech nyní pracuješ?",
+    "emoji": "📋"
+  },
+  {
+    "datum": "10. listopad",
+    "otazka": "Máš dnes s sebou něco, co jsi dostal/a darem?",
+    "emoji": "🎁"
+  },
+  {
+    "datum": "11. listopad",
+    "otazka": "V čem se stále zlepšuješ?",
+    "emoji": "📈"
+  },
+  {
+    "datum": "12. listopad",
+    "otazka": "Jak bohatý je tvůj současný společenský život?",
+    "emoji": "🥳"
+  },
+  {
+    "datum": "13. listopad",
+    "otazka": "Co/kdo ti dokáže absolutně zkazit náladu?",
+    "emoji": "🌧️"
+  },
+  {
+    "datum": "14. listopad",
+    "otazka": "Je něco důležitého, co bys rád/a probral/a s někým ze svého okolí?",
+    "emoji": "💬"
+  },
+  {
+    "datum": "15. listopad",
+    "otazka": "Jak odpovídáš na otázku: „Čím se živíš?“",
+    "emoji": "💼"
+  },
+  {
+    "datum": "16. listopad",
+    "otazka": "Co jsi dnes udělal/a pro své zdraví?",
+    "emoji": "🌿"
+  },
+  {
+    "datum": "17. listopad",
+    "otazka": "Jak jsi využil/a dnešního volného dne?",
+    "emoji": "🕊️"
+  },
+  {
+    "datum": "18. listopad",
+    "otazka": "Jaké máš momentálně závazky?",
+    "emoji": "📋"
+  },
+  {
+    "datum": "19. listopad",
+    "otazka": "Jaký je tvůj nejbližší profesní cíl?",
+    "emoji": "🎯"
+  },
+  {
+    "datum": "20. listopad",
+    "otazka": "Kde se cítíš nejlépe?",
+    "emoji": "🏡"
+  },
+  {
+    "datum": "21. listopad",
+    "otazka": "Které televizní programy sleduješ?",
+    "emoji": "📺"
+  },
+  {
+    "datum": "22. listopad",
+    "otazka": "Čím byl dnešní den výjimečný?",
+    "emoji": "✨"
+  },
+  {
+    "datum": "23. listopad",
+    "otazka": "S kým jsi slavil/a své poslední narozeniny?",
+    "emoji": "🎂"
+  },
+  {
+    "datum": "24. listopad",
+    "otazka": "Co tě bolí?",
+    "emoji": "🩹"
+  },
+  {
+    "datum": "25. listopad",
+    "otazka": "Jak vyjadřuješ své pocity? Uveď nedávný příklad ze života.",
+    "emoji": "💬"
+  },
+  {
+    "datum": "26. listopad",
+    "otazka": "Toužíš po změně? Jestli ano, v jaké oblasti?",
+    "emoji": "🔄"
+  },
+  {
+    "datum": "27. listopad",
+    "otazka": "Jak by tě popsal někdo, kdo tě dnes viděl poprvé v životě?",
+    "emoji": "👋"
+  },
+  {
+    "datum": "28. listopad",
+    "otazka": "Kdybys pozval/a své blízké na večeři, které jídlo bys pro ně připravil/a?",
+    "emoji": "🍽️"
+  },
+  {
+    "datum": "29. listopad",
+    "otazka": "Co není náhoda?",
+    "emoji": "🧩"
+  },
+  {
+    "datum": "30. listopad",
+    "otazka": "Za co vděčíš své rodině?",
+    "emoji": "🏡"
+  },
+  {
+    "datum": "1. prosinec",
+    "otazka": "Jaké bylo tvé dnešní ráno?",
+    "emoji": "🌅"
+  },
+  {
+    "datum": "2. prosinec",
+    "otazka": "Kterou písničku posloucháš poslední dobou nejčastěji?",
+    "emoji": "🎧"
+  },
+  {
+    "datum": "3. prosinec",
+    "otazka": "Je něco, co bys chtěl/a vlastnit, ale patří to někomu jinému?",
+    "emoji": "🎁"
+  },
+  {
+    "datum": "4. prosinec",
+    "otazka": "O čem se ti naposledy zdálo?",
+    "emoji": "💤"
+  },
+  {
+    "datum": "5. prosinec",
+    "otazka": "Co tě dnes potěšilo?",
+    "emoji": "😊"
+  },
+  {
+    "datum": "6. prosinec",
+    "otazka": "Kdo byla první osoba, kterou jsi dnes potkal/a?",
+    "emoji": "👋"
+  },
+  {
+    "datum": "7. prosinec",
+    "otazka": "Na koho se můžeš vždy spolehnout?",
+    "emoji": "🤝"
+  },
+  {
+    "datum": "8. prosinec",
+    "otazka": "Který letošní zážitek tě rozesměje vždy, kdykoli si na něj vzpomeneš?",
+    "emoji": "😂"
+  },
+  {
+    "datum": "9. prosinec",
+    "otazka": "Za co jsi na sebe opravdu hrdý/á?",
+    "emoji": "🏆"
+  },
+  {
+    "datum": "10. prosinec",
+    "otazka": "Čím sis dnes osladil/a život?",
+    "emoji": "🍰"
+  },
+  {
+    "datum": "11. prosinec",
+    "otazka": "Se kterou filmovou/seriálovou postavou se ztotožňuješ?",
+    "emoji": "🎬"
+  },
+  {
+    "datum": "12. prosinec",
+    "otazka": "Čeho bys chtěl/a mít v životě víc, než máš teď, a co pro to můžeš udělat?",
+    "emoji": "🌱"
+  },
+  {
+    "datum": "13. prosinec",
+    "otazka": "Co ses díky tomuto deníku o sobě dozvěděl/a?",
+    "emoji": "📔"
+  },
+  {
+    "datum": "14. prosinec",
+    "otazka": "U koho cítíš, že tě má opravdu rád?",
+    "emoji": "❤️"
+  },
+  {
+    "datum": "15. prosinec",
+    "otazka": "Komu jsi dnes věnoval/a nejvíce svého času?",
+    "emoji": "⏳"
+  },
+  {
+    "datum": "16. prosinec",
+    "otazka": "Koho a čím jsi naposledy rozesmál/a?",
+    "emoji": "😂"
+  },
+  {
+    "datum": "17. prosinec",
+    "otazka": "Na stupnici od 1–5 zhodnoť, jak moc jsi spokojený/á a šťastný/á.",
+    "emoji": "😊"
+  },
+  {
+    "datum": "18. prosinec",
+    "otazka": "Byl dnešní den spíše poklidný, nebo stresující? Proč?",
+    "emoji": "🌿"
+  },
+  {
+    "datum": "19. prosinec",
+    "otazka": "Jaké vánoční dárky máš pro své blízké?",
+    "emoji": "🎁"
+  },
+  {
+    "datum": "20. prosinec",
+    "otazka": "Zapiš si cokoliv, co je pro tebe právě teď důležité.",
+    "emoji": "✍️"
+  },
+  {
+    "datum": "21. prosinec",
+    "otazka": "Jakému nejzásadnějšímu rozhodnutí jsi letos čelil/a?",
+    "emoji": "⚖️"
+  },
+  {
+    "datum": "22. prosinec",
+    "otazka": "Jak budeš trávit letošní Vánoce?",
+    "emoji": "🎄"
+  },
+  {
+    "datum": "23. prosinec",
+    "otazka": "Za co tě naposledy někdo pochválil?",
+    "emoji": "👏"
+  },
+  {
+    "datum": "24. prosinec",
+    "otazka": "Slož pár rýmů, které popisují tvůj dnešní den.",
+    "emoji": "✍️"
+  },
+  {
+    "datum": "25. prosinec",
+    "otazka": "Která část dnešního dne byla nejlepší?",
+    "emoji": "⭐"
+  },
+  {
+    "datum": "26. prosinec",
+    "otazka": "Co ti dnes nejvíc chutnalo?",
+    "emoji": "🍲"
+  },
+  {
+    "datum": "27. prosinec",
+    "otazka": "Čím byly výjimečné letošní Vánoce?",
+    "emoji": "🎄"
+  },
+  {
+    "datum": "28. prosinec",
+    "otazka": "Jaké jsou vaše rodinné vztahy?",
+    "emoji": "🏡"
+  },
+  {
+    "datum": "29. prosinec",
+    "otazka": "Kdy realita předčila tvé očekávání?",
+    "emoji": "✨"
+  },
+  {
+    "datum": "30. prosinec",
+    "otazka": "Jak plánuješ prožít poslední den v roce?",
+    "emoji": "🥳"
+  },
+  {
+    "datum": "31. prosinec",
+    "otazka": "Jaké největší dobrodružství jsi letos zažil/a?",
+    "emoji": "🗺️"
+  }
+]

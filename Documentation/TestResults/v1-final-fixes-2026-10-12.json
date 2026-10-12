@@ -1,0 +1,112 @@
+{
+  "date": "2026-10-12",
+  "title": "Roční zápisník otázek",
+  "builds": {
+    "debugIPhone": {
+      "status": "success",
+      "log": "4C62058A-24F8-4273-A98D-AE5BDA59D369.xcactivitylog"
+    },
+    "releaseIPhone": {
+      "status": "success",
+      "log": "050170EE-07A1-4D9E-BD0C-5C786A00E4F8.xcactivitylog"
+    },
+    "debugSimulator": {
+      "status": "success",
+      "log": "4CFF9F71-6763-407F-B7C5-222704893F16.xcactivitylog"
+    }
+  },
+  "icons": {
+    "Debug": [
+      {
+        "Idiom": "phone",
+        "PixelHeight": 60,
+        "PixelWidth": 60,
+        "RenditionName": "AppIcon-20x20@3x.png",
+        "Scale": 3
+      },
+      {
+        "Idiom": "phone",
+        "PixelHeight": 87,
+        "PixelWidth": 87,
+        "RenditionName": "AppIcon-29x29@3x.png",
+        "Scale": 3
+      },
+      {
+        "Idiom": "phone",
+        "PixelHeight": 120,
+        "PixelWidth": 120,
+        "RenditionName": "AppIcon-40x40@3x.png",
+        "Scale": 3
+      },
+      {
+        "Idiom": "phone",
+        "PixelHeight": 180,
+        "PixelWidth": 180,
+        "RenditionName": "AppIcon-60x60@3x.png",
+        "Scale": 3
+      }
+    ],
+    "Release": [
+      {
+        "Idiom": "phone",
+        "PixelHeight": 60,
+        "PixelWidth": 60,
+        "RenditionName": "AppIcon-20x20@3x.png",
+        "Scale": 3
+      },
+      {
+        "Idiom": "phone",
+        "PixelHeight": 87,
+        "PixelWidth": 87,
+        "RenditionName": "AppIcon-29x29@3x.png",
+        "Scale": 3
+      },
+      {
+        "Idiom": "phone",
+        "PixelHeight": 120,
+        "PixelWidth": 120,
+        "RenditionName": "AppIcon-40x40@3x.png",
+        "Scale": 3
+      },
+      {
+        "Idiom": "phone",
+        "PixelHeight": 180,
+        "PixelWidth": 180,
+        "RenditionName": "AppIcon-60x60@3x.png",
+        "Scale": 3
+      }
+    ]
+  },
+  "uiTest": {
+    "source": "Test-The Tom Didary-2026.10.12_16-27-27-+0200.xcresult",
+    "name": "DiaryFlowTests/testSaveEditRelaunchAndBackground()",
+    "passed": true,
+    "durationSeconds": 56.725
+  },
+  "titleVisuallyVerified": true,
+  "phoneNotificationDeliveryReportedByUser": true,
+  "phoneNotificationIconAfterUpdateVerified": true,
+  "fullSuiteRerun": false,
+  "bundleIdentifierUnchanged": true,
+  "storageSchemaUnchanged": true,
+  "simulatorNotification": {
+    "device": "iPhone 17 / iOS 27.0",
+    "localTime": "2026-10-12 16:46 Europe/Prague",
+    "delivered": true,
+    "iconVisuallyVerified": true,
+    "appearance": "light",
+    "screenshot": "Documentation/Assets/notifikace-logo-2026-10-12.png",
+    "preferencesRestored": {
+      "enabled": false,
+      "hour": 20,
+      "minute": 0
+    }
+  },
+  "phoneNotificationIconVerification": {
+    "date": "2026-10-12",
+    "source": "user report in project chat",
+    "result": "correct icon after iPhone restart",
+    "reinstallationRequired": false,
+    "cacheExplanation": "inference from restart result; internal cause not measured"
+  }
+}

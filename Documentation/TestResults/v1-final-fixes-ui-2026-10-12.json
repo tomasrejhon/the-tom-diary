@@ -1,0 +1,141 @@
+{
+  "source": "Test-The Tom Didary-2026.10.12_16-27-27-+0200.xcresult",
+  "results": [
+    {
+      "test": "DiaryFlowTests/testSaveEditRelaunchAndBackground()",
+      "status": "Success"
+    }
+  ],
+  "screenshots": [
+    "outputs/rocni-zapisnik-2026-10-12.png"
+  ],
+  "issues": {
+    "_type": {
+      "_name": "ResultIssueSummaries"
+    },
+    "analyzerWarningSummaries": {
+      "_type": {
+        "_name": "Array"
+      }
+    },
+    "errorSummaries": {
+      "_type": {
+        "_name": "Array"
+      }
+    },
+    "testFailureSummaries": {
+      "_type": {
+        "_name": "Array"
+      }
+    },
+    "testWarningSummaries": {
+      "_type": {
+        "_name": "Array"
+      }
+    },
+    "warningSummaries": {
+      "_type": {
+        "_name": "Array"
+      },
+      "_values": [
+        {
+          "_type": {
+            "_name": "IssueSummary"
+          },
+          "documentLocationInCreatingWorkspace": {
+            "_type": {
+              "_name": "DocumentLocation"
+            },
+            "concreteTypeName": {
+              "_type": {
+                "_name": "String"
+              },
+              "_value": "DVTMemberDocumentLocation"
+            },
+            "url": {
+              "_type": {
+                "_name": "String"
+              },
+              "_value": "file:///Users/tomasrejhon/Desktop/WEB/Tom-Diary/The%20Tom%20Didary/The%20Tom%20Didary/Assets.xcassets#Timestamp=813508047.859233&XcodeLocation=%7B%22Member%22:%22.%5C/AppIcon.appiconset%5C/%5B%5D%5Bios-marketing%5D%5B1024x1024%5D%5B%5D%5B%5D%5B%5D%5B%5D%5B%5D%5B%5D%5B%5D%5B2d%5D%5BAppIcon-1024.png%5D%22%7D"
+            }
+          },
+          "issueType": {
+            "_type": {
+              "_name": "String"
+            },
+            "_value": "Warning"
+          },
+          "message": {
+            "_type": {
+              "_name": "String"
+            },
+            "_value": "The app icon set \"AppIcon\" has an unassigned child."
+          },
+          "producingTarget": {
+            "_type": {
+              "_name": "String"
+            },
+            "_value": "The Tom Didary"
+          }
+        },
+        {
+          "_type": {
+            "_name": "IssueSummary"
+          },
+          "documentLocationInCreatingWorkspace": {
+            "_type": {
+              "_name": "DocumentLocation"
+            },
+            "concreteTypeName": {
+              "_type": {
+                "_name": "String"
+              },
+              "_value": "DVTMemberDocumentLocation"
+            },
+            "url": {
+              "_type": {
+                "_name": "String"
+              },
+              "_value": "file:///Users/tomasrejhon/Desktop/WEB/Tom-Diary/The%20Tom%20Didary/The%20Tom%20Didary/Assets.xcassets#Timestamp=813508047.859233&XcodeLocation=%7B%22Member%22:%22.%5C/AppIcon.appiconset%22%7D"
+            }
+          },
+          "issueType": {
+            "_type": {
+              "_name": "String"
+            },
+            "_value": "Warning"
+          },
+          "message": {
+            "_type": {
+              "_name": "String"
+            },
+            "_value": "A 1024x1024 app store icon is required for iOS apps"
+          },
+          "producingTarget": {
+            "_type": {
+              "_name": "String"
+            },
+            "_value": "The Tom Didary"
+          }
+        },
+        {
+          "_type": {
+            "_name": "IssueSummary"
+          },
+          "issueType": {
+            "_type": {
+              "_name": "String"
+            },
+            "_value": "Uncategorized"
+          },
+          "message": {
+            "_type": {
+              "_name": "String"
+            },
+            "_value": "Debug session ended with code 9: killed"
+          }
+        }
+      ]
+    }
+  }
+}

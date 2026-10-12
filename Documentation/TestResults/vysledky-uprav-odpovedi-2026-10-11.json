@@ -1,0 +1,116 @@
+{
+  "results": [
+    {
+      "test": "DiaryTests/closedDaysCannotBeCreatedOrEdited()",
+      "status": "Success",
+      "source": "Test-The Tom Didary-2026.10.11_14-02-23-+0200.xcresult"
+    },
+    {
+      "test": "DiaryTests/bundledQuestionsCoverEveryCalendarDay()",
+      "status": "Success",
+      "source": "Test-The Tom Didary-2026.10.11_14-02-23-+0200.xcresult"
+    },
+    {
+      "test": "DiaryTests/datesRejectInvalidLeapDays()",
+      "status": "Success",
+      "source": "Test-The Tom Didary-2026.10.11_14-02-23-+0200.xcresult"
+    },
+    {
+      "test": "DiaryTests/leapDayHistoryNeverIncludesFebruary28OrMarch1()",
+      "status": "Success",
+      "source": "Test-The Tom Didary-2026.10.11_14-02-23-+0200.xcresult"
+    },
+    {
+      "test": "DiaryTests/malformedQuestionResourcesFailVisibly()",
+      "status": "Success",
+      "source": "Test-The Tom Didary-2026.10.11_14-02-23-+0200.xcresult"
+    },
+    {
+      "test": "DiaryTests/answerSurvivesReopeningPersistentStore()",
+      "status": "Success",
+      "source": "Test-The Tom Didary-2026.10.11_14-02-23-+0200.xcresult"
+    },
+    {
+      "test": "DiaryTests/editPermissionExpiresAtMidnight()",
+      "status": "Success",
+      "source": "Test-The Tom Didary-2026.10.11_14-02-23-+0200.xcresult"
+    },
+    {
+      "test": "DiaryTests/savingUpdatesOneAnswerAndIgnoresWhitespace()",
+      "status": "Success",
+      "source": "Test-The Tom Didary-2026.10.11_14-02-23-+0200.xcresult"
+    },
+    {
+      "test": "DiaryTests/historyMatchesMonthAndDayAndExcludesFutureYears()",
+      "status": "Success",
+      "source": "Test-The Tom Didary-2026.10.11_14-02-23-+0200.xcresult"
+    },
+    {
+      "test": "The_Tom_DidaryTests/example()",
+      "status": "Success",
+      "source": "Test-The Tom Didary-2026.10.11_13-44-30-+0200.xcresult"
+    },
+    {
+      "test": "DiaryFlowTests/testDateChangesPreserveDraftWithinCurrentDay()",
+      "status": "Success",
+      "source": "Test-The Tom Didary-2026.10.11_13-44-30-+0200.xcresult"
+    },
+    {
+      "test": "DiaryFlowTests/testFourRealYearsLongTextAndLargeType()",
+      "status": "Success",
+      "source": "Test-The Tom Didary-2026.10.11_13-59-13-+0200.xcresult"
+    },
+    {
+      "test": "DiaryFlowTests/testMidnightClosesOpenEditorWithoutOverwritingSavedAnswer()",
+      "status": "Success",
+      "source": "Test-The Tom Didary-2026.10.11_13-44-30-+0200.xcresult"
+    },
+    {
+      "test": "DiaryFlowTests/testPreviousDayIsReadOnlyAndNewDayStartsEmpty()",
+      "status": "Success",
+      "source": "Test-The Tom Didary-2026.10.11_13-44-30-+0200.xcresult"
+    },
+    {
+      "test": "DiaryFlowTests/testSaveEditRelaunchAndBackground()",
+      "status": "Success",
+      "source": "Test-The Tom Didary-2026.10.11_14-03-25-+0200.xcresult"
+    },
+    {
+      "test": "The_Tom_DidaryUITests/testExample()",
+      "status": "Success",
+      "source": "Test-The Tom Didary-2026.10.11_13-44-30-+0200.xcresult"
+    },
+    {
+      "test": "The_Tom_DidaryUITests/testLaunchPerformance()",
+      "status": "Success",
+      "source": "Test-The Tom Didary-2026.10.11_13-44-30-+0200.xcresult"
+    },
+    {
+      "test": "The_Tom_DidaryUITestsLaunchTests/testLaunchStaysPortraitWhenPhoneRotates()",
+      "status": "Success",
+      "source": "Test-The Tom Didary-2026.10.11_13-44-30-+0200.xcresult"
+    }
+  ],
+  "runs": [
+    {
+      "source": "Test-The Tom Didary-2026.10.11_13-44-30-+0200.xcresult",
+      "passed": 17,
+      "failed": 1
+    },
+    {
+      "source": "Test-The Tom Didary-2026.10.11_13-59-13-+0200.xcresult",
+      "passed": 1,
+      "failed": 0
+    },
+    {
+      "source": "Test-The Tom Didary-2026.10.11_14-02-23-+0200.xcresult",
+      "passed": 9,
+      "failed": 0
+    },
+    {
+      "source": "Test-The Tom Didary-2026.10.11_14-03-25-+0200.xcresult",
+      "passed": 1,
+      "failed": 0
+    }
+  ]
+}

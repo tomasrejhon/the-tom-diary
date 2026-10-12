@@ -7,10 +7,11 @@
 
 import Testing
 
+/// Původní prázdný test šablony. Spouští se, ale nepřidává funkční pokrytí.
 struct The_Tom_DidaryTests {
 
     @Test func example() async throws {
-        // Write your test here and use APIs like `#expect(...)` to check expected conditions.
+        // Funkční testy jsou v DiaryTests, DiaryStatisticsTests a ReminderTests.
     }
 
 }

@@ -8,6 +8,8 @@
 import Foundation
 import SwiftData
 
+/// Nepoužitý model z původní šablony Xcode. Není v aktivním Schema aplikace
+/// a deník do něj žádné odpovědi neukládá. Ponechán pro přehled původu projektu.
 @Model
 final class Item {
     var timestamp: Date

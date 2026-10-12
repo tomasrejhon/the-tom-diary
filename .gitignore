@@ -1,0 +1,23 @@
+# Lokální nastavení macOS a Xcode; sdílená schémata se verzují.
+.DS_Store
+xcuserdata/
+*.xcuserstate
+
+# Výstupy sestavení a úplné balíčky testů. Malé shrnující JSONy v Documentation zůstávají.
+DerivedData/
+build/
+*.xcresult/
+*.xcactivitylog
+
+# Osobní databáze a lokální podpisové soubory nepatří do zdrojového repozitáře.
+*.store
+*.store-shm
+*.store-wal
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.p12
+*.mobileprovision
+.env
+.env.*
+!.env.example

@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-11",
+  "swiftFiles": 20,
+  "swiftTokensUnchanged": true,
+  "markdownLinksValid": true,
+  "jsonFilesValid": true,
+  "icon": {
+    "width": 1024,
+    "height": 1024,
+    "alpha": false
+  },
+  "runtimeChanges": [
+    "iOS AppIcon image",
+    "CFBundleDisplayName: The Tom Diary"
+  ],
+  "gitIndexChanged": false
+}

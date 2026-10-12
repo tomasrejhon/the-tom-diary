@@ -1,0 +1,169 @@
+{
+  "date": "2026-10-11",
+  "device": "iPhone 17 / iOS 27.0",
+  "count": 30,
+  "passed": 30,
+  "runs": [
+    "Test-The Tom Didary-2026.10.11_15-51-34-+0200.xcresult",
+    "Test-The Tom Didary-2026.10.11_16-02-53-+0200.xcresult",
+    "Test-The Tom Didary-2026.10.11_16-09-07-+0200.xcresult"
+  ],
+  "results": [
+    {
+      "test": "DiaryFlowTests/testDateChangesPreserveDraftWithinCurrentDay()",
+      "status": "Success",
+      "source": "Test-The Tom Didary-2026.10.11_16-02-53-+0200.xcresult"
+    },
+    {
+      "test": "DiaryFlowTests/testFourRealYearsLongTextAndLargeType()",
+      "status": "Success",
+      "source": "Test-The Tom Didary-2026.10.11_15-51-34-+0200.xcresult"
+    },
+    {
+      "test": "DiaryFlowTests/testMenuStatsAndDeveloperToolsResetOnRelaunch()",
+      "status": "Success",
+      "source": "Test-The Tom Didary-2026.10.11_16-02-53-+0200.xcresult"
+    },
+    {
+      "test": "DiaryFlowTests/testMidnightClosesOpenEditorWithoutOverwritingSavedAnswer()",
+      "status": "Success",
+      "source": "Test-The Tom Didary-2026.10.11_16-02-53-+0200.xcresult"
+    },
+    {
+      "test": "DiaryFlowTests/testNotificationTextPersistsAfterRelaunch()",
+      "status": "Success",
+      "source": "Test-The Tom Didary-2026.10.11_16-09-07-+0200.xcresult"
+    },
+    {
+      "test": "DiaryFlowTests/testPreviousDayIsReadOnlyAndNewDayStartsEmpty()",
+      "status": "Success",
+      "source": "Test-The Tom Didary-2026.10.11_16-02-53-+0200.xcresult"
+    },
+    {
+      "test": "DiaryFlowTests/testSaveEditRelaunchAndBackground()",
+      "status": "Success",
+      "source": "Test-The Tom Didary-2026.10.11_16-09-07-+0200.xcresult"
+    },
+    {
+      "test": "The_Tom_DidaryUITests/testExample()",
+      "status": "Success",
+      "source": "Test-The Tom Didary-2026.10.11_15-51-34-+0200.xcresult"
+    },
+    {
+      "test": "The_Tom_DidaryUITests/testLaunchPerformance()",
+      "status": "Success",
+      "source": "Test-The Tom Didary-2026.10.11_15-51-34-+0200.xcresult"
+    },
+    {
+      "test": "The_Tom_DidaryUITestsLaunchTests/testLaunchStaysPortraitWhenPhoneRotates()",
+      "status": "Success",
+      "source": "Test-The Tom Didary-2026.10.11_15-51-34-+0200.xcresult"
+    },
+    {
+      "test": "DiaryTests/datesRejectInvalidLeapDays()",
+      "status": "Success",
+      "source": "Test-The Tom Didary-2026.10.11_15-51-34-+0200.xcresult"
+    },
+    {
+      "test": "DiaryTests/bundledQuestionsCoverEveryCalendarDay()",
+      "status": "Success",
+      "source": "Test-The Tom Didary-2026.10.11_15-51-34-+0200.xcresult"
+    },
+    {
+      "test": "DiaryTests/malformedQuestionResourcesFailVisibly()",
+      "status": "Success",
+      "source": "Test-The Tom Didary-2026.10.11_15-51-34-+0200.xcresult"
+    },
+    {
+      "test": "DiaryTests/historyMatchesMonthAndDayAndExcludesFutureYears()",
+      "status": "Success",
+      "source": "Test-The Tom Didary-2026.10.11_15-51-34-+0200.xcresult"
+    },
+    {
+      "test": "DiaryTests/editPermissionExpiresAtMidnight()",
+      "status": "Success",
+      "source": "Test-The Tom Didary-2026.10.11_15-51-34-+0200.xcresult"
+    },
+    {
+      "test": "DiaryTests/closedDaysCannotBeCreatedOrEdited()",
+      "status": "Success",
+      "source": "Test-The Tom Didary-2026.10.11_15-51-34-+0200.xcresult"
+    },
+    {
+      "test": "DiaryTests/leapDayHistoryNeverIncludesFebruary28OrMarch1()",
+      "status": "Success",
+      "source": "Test-The Tom Didary-2026.10.11_15-51-34-+0200.xcresult"
+    },
+    {
+      "test": "DiaryTests/savingUpdatesOneAnswerAndIgnoresWhitespace()",
+      "status": "Success",
+      "source": "Test-The Tom Didary-2026.10.11_15-51-34-+0200.xcresult"
+    },
+    {
+      "test": "DiaryTests/answerSurvivesReopeningPersistentStore()",
+      "status": "Success",
+      "source": "Test-The Tom Didary-2026.10.11_15-51-34-+0200.xcresult"
+    },
+    {
+      "test": "The_Tom_DidaryTests/example()",
+      "status": "Success",
+      "source": "Test-The Tom Didary-2026.10.11_15-51-34-+0200.xcresult"
+    },
+    {
+      "test": "ReminderTests/reminderRejectsInvalidTimeOrEmptyEnabledContent()",
+      "status": "Success",
+      "source": "Test-The Tom Didary-2026.10.11_15-51-34-+0200.xcresult"
+    },
+    {
+      "test": "ReminderTests/preferencesSurviveReopeningTheirStore()",
+      "status": "Success",
+      "source": "Test-The Tom Didary-2026.10.11_15-51-34-+0200.xcresult"
+    },
+    {
+      "test": "ReminderTests/dailyRequestUsesCustomTimeAndTrimmedContent()",
+      "status": "Success",
+      "source": "Test-The Tom Didary-2026.10.11_15-51-34-+0200.xcresult"
+    },
+    {
+      "test": "DiaryStatisticsTests/leapDayAnniversaryAppearsOnMarch1()",
+      "status": "Success",
+      "source": "Test-The Tom Didary-2026.10.11_15-51-34-+0200.xcresult"
+    },
+    {
+      "test": "DiaryStatisticsTests/missedFullDayBreaksStreak()",
+      "status": "Success",
+      "source": "Test-The Tom Didary-2026.10.11_15-51-34-+0200.xcresult"
+    },
+    {
+      "test": "DiaryStatisticsTests/countsUniqueDaysAndIgnoresFutureAnswers()",
+      "status": "Success",
+      "source": "Test-The Tom Didary-2026.10.11_15-51-34-+0200.xcresult"
+    },
+    {
+      "test": "DiaryStatisticsTests/streakCrossesYearAndDaylightSavingBoundaries()",
+      "status": "Success",
+      "source": "Test-The Tom Didary-2026.10.11_15-51-34-+0200.xcresult"
+    },
+    {
+      "test": "DiaryStatisticsTests/todayExtendsYesterdayStreakWithoutBreakingAnUnfinishedDay()",
+      "status": "Success",
+      "source": "Test-The Tom Didary-2026.10.11_15-51-34-+0200.xcresult"
+    },
+    {
+      "test": "DiaryStatisticsTests/heatmapCoversLeapYearAndDistinguishesStatuses()",
+      "status": "Success",
+      "source": "Test-The Tom Didary-2026.10.11_15-51-34-+0200.xcresult"
+    },
+    {
+      "test": "DiaryStatisticsTests/totalAppearsOnlyOneYearAndOneDayAfterFirstAnswer()",
+      "status": "Success",
+      "source": "Test-The Tom Didary-2026.10.11_15-51-34-+0200.xcresult"
+    }
+  ],
+  "builds": {
+    "debug": "success",
+    "release": "success",
+    "releaseLog": "45BE4A56-BC86-4DA0-BB3A-CF39B11244E2.xcactivitylog",
+    "releaseConfigurationVerified": true
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "source": "Test-The Tom Didary-2026.10.11_17-51-23-+0200.xcresult",
+  "results": [
+    {
+      "test": "DiaryFlowTests/testMenuStatsAndDeveloperToolsResetOnRelaunch()",
+      "status": "Success"
+    }
+  ],
+  "screenshots": [
+    "outputs/menu-v1-2026-10-11.png"
+  ],
+  "issues": {
+    "_type": {
+      "_name": "ResultIssueSummaries"
+    },
+    "analyzerWarningSummaries": {
+      "_type": {
+        "_name": "Array"
+      }
+    },
+    "errorSummaries": {
+      "_type": {
+        "_name": "Array"
+      }
+    },
+    "testFailureSummaries": {
+      "_type": {
+        "_name": "Array"
+      }
+    },
+    "testWarningSummaries": {
+      "_type": {
+        "_name": "Array"
+      }
+    },
+    "warningSummaries": {
+      "_type": {
+        "_name": "Array"
+      },
+      "_values": [
+        {
+          "_type": {
+            "_name": "IssueSummary"
+          },
+          "issueType": {
+            "_type": {
+              "_name": "String"
+            },
+            "_value": "Uncategorized"
+          },
+          "message": {
+            "_type": {
+              "_name": "String"
+            },
+            "_value": "Debug session ended with code 9: killed"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "source": "Test-The Tom Didary-2026.09.23_22-08-19-+0200.xcresult",
+  "results": [
+    {
+      "test": "DiaryTests/answerSurvivesReopeningPersistentStore()",
+      "status": "Success"
+    },
+    {
+      "test": "DiaryTests/datesRejectInvalidLeapDays()",
+      "status": "Success"
+    },
+    {
+      "test": "DiaryTests/savingUpdatesOneAnswerAndIgnoresWhitespace()",
+      "status": "Success"
+    },
+    {
+      "test": "DiaryTests/historyMatchesMonthAndDayAndExcludesFutureYears()",
+      "status": "Success"
+    },
+    {
+      "test": "DiaryTests/malformedQuestionResourcesFailVisibly()",
+      "status": "Success"
+    },
+    {
+      "test": "DiaryTests/leapDayHistoryNeverIncludesFebruary28OrMarch1()",
+      "status": "Success"
+    },
+    {
+      "test": "DiaryTests/bundledQuestionsCoverEveryCalendarDay()",
+      "status": "Success"
+    },
+    {
+      "test": "The_Tom_DidaryTests/example()",
+      "status": "Success"
+    },
+    {
+      "test": "The_Tom_DidaryUITestsLaunchTests/testLaunchStaysPortraitWhenPhoneRotates()",
+      "status": "Success"
+    },
+    {
+      "test": "The_Tom_DidaryUITests/testExample()",
+      "status": "Success"
+    },
+    {
+      "test": "The_Tom_DidaryUITests/testLaunchPerformance()",
+      "status": "Success"
+    },
+    {
+      "test": "DiaryFlowTests/testDateChangesPreserveDraftAndLeapDay()",
+      "status": "Success"
+    },
+    {
+      "test": "DiaryFlowTests/testFourRealYearsLongTextAndLargeType()",
+      "status": "Success"
+    },
+    {
+      "test": "DiaryFlowTests/testSaveEditRelaunchAndBackground()",
+      "status": "Success"
+    }
+  ]
+}

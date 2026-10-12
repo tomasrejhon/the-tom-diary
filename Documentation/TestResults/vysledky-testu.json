@@ -1,0 +1,73 @@
+{
+  "source": "Test-The Tom Didary-2026.09.20_22-35-36-+0200.xcresult",
+  "results": [
+    {
+      "test": "The_Tom_DidaryUITestsLaunchTests/testLaunch",
+      "status": "Success"
+    },
+    {
+      "test": "The_Tom_DidaryUITestsLaunchTests/testLaunch",
+      "status": "Success"
+    },
+    {
+      "test": "The_Tom_DidaryUITestsLaunchTests/testLaunch",
+      "status": "Success"
+    },
+    {
+      "test": "The_Tom_DidaryUITestsLaunchTests/testLaunch",
+      "status": "Success"
+    },
+    {
+      "test": "The_Tom_DidaryUITests/testExample()",
+      "status": "Success"
+    },
+    {
+      "test": "The_Tom_DidaryUITests/testLaunchPerformance()",
+      "status": "Success"
+    },
+    {
+      "test": "DiaryFlowTests/testDateChangesPreserveDraftAndLeapDay()",
+      "status": "Success"
+    },
+    {
+      "test": "DiaryFlowTests/testFourRealYearsLongTextAndLargeType()",
+      "status": "Success"
+    },
+    {
+      "test": "DiaryFlowTests/testSaveEditRelaunchAndBackground()",
+      "status": "Success"
+    },
+    {
+      "test": "The_Tom_DidaryTests/example()",
+      "status": "Success"
+    },
+    {
+      "test": "DiaryTests/historyMatchesMonthAndDayAndExcludesFutureYears()",
+      "status": "Success"
+    },
+    {
+      "test": "DiaryTests/savingUpdatesOneAnswerAndIgnoresWhitespace()",
+      "status": "Success"
+    },
+    {
+      "test": "DiaryTests/bundledQuestionsCoverEveryCalendarDay()",
+      "status": "Success"
+    },
+    {
+      "test": "DiaryTests/answerSurvivesReopeningPersistentStore()",
+      "status": "Success"
+    },
+    {
+      "test": "DiaryTests/leapDayHistoryNeverIncludesFebruary28OrMarch1()",
+      "status": "Success"
+    },
+    {
+      "test": "DiaryTests/datesRejectInvalidLeapDays()",
+      "status": "Success"
+    },
+    {
+      "test": "DiaryTests/malformedQuestionResourcesFailVisibly()",
+      "status": "Success"
+    }
+  ]
+}

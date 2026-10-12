@@ -1,0 +1,64 @@
+{
+  "date": "2026-10-11",
+  "device": "iPhone 17 / iOS 27.0",
+  "builds": {
+    "debug": {
+      "status": "success",
+      "log": "C81BB636-4E84-475C-8984-5FFF0102A0CE.xcactivitylog"
+    },
+    "release": {
+      "status": "success",
+      "log": "E2B9CAA5-C7B7-4C71-AB99-82A69D1C384C.xcactivitylog",
+      "configurationVerified": true
+    }
+  },
+  "uiTest": {
+    "source": "Test-The Tom Didary-2026.10.11_17-51-23-+0200.xcresult",
+    "count": 1,
+    "passed": 1,
+    "name": "DiaryFlowTests/testMenuStatsAndDeveloperToolsResetOnRelaunch()"
+  },
+  "bundles": {
+    "Debug": {
+      "displayName": "The Tom Diary",
+      "bundleIdentifier": "My.The-Tom-Didary",
+      "version": "1.0.0",
+      "build": "1",
+      "iconName": "AppIcon",
+      "compiledIcons": [
+        "AppIcon60x60@2x.png",
+        "AppIcon76x76@2x~ipad.png"
+      ],
+      "orientations": {
+        "UISupportedInterfaceOrientations~ipad": [
+          "UIInterfaceOrientationPortrait"
+        ],
+        "UISupportedInterfaceOrientations~iphone": [
+          "UIInterfaceOrientationPortrait"
+        ]
+      }
+    },
+    "Release": {
+      "displayName": "The Tom Diary",
+      "bundleIdentifier": "My.The-Tom-Didary",
+      "version": "1.0.0",
+      "build": "1",
+      "iconName": "AppIcon",
+      "compiledIcons": [
+        "AppIcon60x60@2x.png",
+        "AppIcon76x76@2x~ipad.png"
+      ],
+      "orientations": {
+        "UISupportedInterfaceOrientations~ipad": [
+          "UIInterfaceOrientationPortrait"
+        ],
+        "UISupportedInterfaceOrientations~iphone": [
+          "UIInterfaceOrientationPortrait"
+        ]
+      }
+    }
+  },
+  "swiftLogicUnchanged": true,
+  "fullSuiteRerun": false,
+  "physicalIconAndNotificationDeliveryVerified": false
+}
