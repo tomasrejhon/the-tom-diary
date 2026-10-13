@@ -4,12 +4,14 @@ Osobní deník pro iPhone: každý den jedna otázka, vlastní odpověď a vzpom
 
 Hlavní stránka má nadpis **Roční zápisník otázek**. Zdrojový projekt a jeho další vývoj jsou v soukromém repozitáři [tomasrejhon/the-tom-diary](https://github.com/tomasrejhon/the-tom-diary). Výchozí funkční verze je označená značkou `v1.0.0`.
 
-**Verze 1.0.0, build 1.** Aktuální technická dokumentace zachycuje stav z 12. října 2026. První verze je určená především pro osobní používání na iPhonu. iCloud synchronizace, export/import, widget a samostatně doladěná verze pro Mac jsou další etapy.
+**Vývoj verze 1.1.0, build 1.** Stabilní výchozí verze má značku `v1.0.0`. Aktuální technická dokumentace zachycuje stav z 13. října 2026. První verze je určená především pro osobní používání na iPhonu. CloudKit synchronizace, widget a samostatně doladěná verze pro Mac jsou další etapy.
+
+Nová verze přidává automatickou souborovou zálohu po každém uložení odpovědi, obnovu chybějících dnů a připomínku platnosti vývojového podpisu. Nastavení a meze jsou v [Zálohování a podpis](Documentation/backup-and-signing.md).
 
 ## Spuštění
 
 1. Otevři `The Tom Didary.xcodeproj` v Xcode. Původní překlep v názvu projektu zůstal kvůli stabilitě cest a identity; na ploše iPhonu se aplikace jmenuje **The Tom Diary**.
-2. Vyber schéma **The Tom Didary** a iPhone simulátor. Ověřená konfigurace je Xcode 27 a iPhone 17 / iOS 27.0; minimální iOS projektu je 26.2.
+2. Vyber sdílené schéma **The Tom Diary** a iPhone simulátor. Schéma **The Tom Diary Unit Tests** spouští jen datové testy. Ověřená konfigurace je Xcode 27 a iPhone 17 / iOS 27.0; minimální iOS projektu je 26.2.
 3. Spusť **⌘R**. Testy spustíš **⌘U**. Pro fyzický telefon nastav svůj Team v **Signing & Capabilities**.
 
 Podrobný postup, včetně aktualizace existující instalace na telefonu, je v [průvodci vývojem](Documentation/development.md).
@@ -42,7 +44,7 @@ Komentáře přímo ve Swift souborech jsou česky. Vysvětlují hlavně odpově
 
 ## Stav dat a ověření
 
-**Odpovědi zatím nejsou synchronizované do cloudu.** Git ukládá zdrojový kód, nikoli osobní zápisy z telefonu. Při aktualizaci používej existující instalaci; odinstalování smaže její lokální data. Přenos na nový telefon přes vlastní synchronizaci aplikace ještě není implementovaný.
+**Odpovědi zatím nejsou synchronizované do cloudu.** Git ukládá zdrojový kód, nikoli osobní zápisy z telefonu. Při aktualizaci používej existující instalaci; odinstalování smaže její lokální data. Verze 1.1.0 přidává obnovu ze souborové zálohy. Zápis souboru do iCloud Drive není potvrzení dokončeného cloudového přenosu.
 
 Před přidáním ikonky a dokumentace mělo všech **30 různých testů** konečný úspěšný výsledek napříč doloženými běhy; zahrnuje to jeden prázdný test šablony. Po úpravě menu na celou obrazovku znovu prošel odpovídající UI scénář. Po přidání ikonky a komentářů uspělo sestavení Debug/Release a znovu prošel UI scénář menu. Přesné meze a aktuální ověření této změny jsou v [testovací dokumentaci](Documentation/testing.md).
 

@@ -51,6 +51,9 @@ struct ContentView: View {
     @State private var developerToolsUnlocked = false
     @State private var showMenu = false
     @State private var showNotificationSettings = false
+    @State private var showBackupSettings = false
+    @StateObject private var backup = BackupManager(defaults: DiaryPreferences.defaults)
+    @StateObject private var signing = SigningReminder(defaults: DiaryPreferences.defaults)
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
 
     private var question: Question? {
@@ -98,6 +101,11 @@ struct ContentView: View {
                     DiarySidebar(statistics: statistics, developerToolsUnlocked: developerToolsUnlocked,
                                  close: closeMenu,
                                  notificationSettings: { closeMenu(); showNotificationSettings = true },
+                                 backup: backup, signing: signing,
+                                 backupSettings: {
+                                     if hasChanges && !saveAnswer() { return }
+                                     closeMenu(); showBackupSettings = true
+                                 },
                                  testSettings: {
                                      proposedDate = today
                                      proposedDateText = DiaryDate.string(today)
@@ -125,20 +133,35 @@ struct ContentView: View {
                 Button("OK", role: .cancel) { message = nil }
             } message: { Text(message ?? "") }
             .onAppear { currentDate = DiaryDate.now; preloadAnswer() }
+            .task {
+                #if DEBUG
+                await backup.configureTestFolderIfNeeded(context: modelContext)
+                #endif
+                backup.update(context: modelContext, force: true)
+                await signing.refresh()
+            }
             .onChange(of: text) { _, _ in if hasChanges { saveStatus = "Neuložené změny" } }
             // Neaktivní stav nastává i při odchodu na plochu: neprázdné změny
             // zkusíme uložit. Po návratu znovu ověříme den, který se mohl změnit.
             .onChange(of: scenePhase) { _, phase in
-                if phase == .active { refreshDate() }
+                if phase == .active {
+                    refreshDate()
+                    backup.update(context: modelContext, force: true)
+                    Task { await signing.refresh() }
+                }
                 if phase == .inactive, hasChanges { _ = saveAnswer() }
             }
             // Systémová změna dne přichází na hlavní smyčku. Timer je doplňková
             // kontrola, nikoli práce na pozadí; před uložením se čas ověří ještě jednou.
             .onReceive(NotificationCenter.default.publisher(for: .NSCalendarDayChanged).receive(on: RunLoop.main)) { _ in refreshDate() }
             .refreshable { refreshDate() }
-            .onReceive(Timer.publish(every: 30, on: .main, in: .common).autoconnect()) { _ in refreshDate() }
+            .onReceive(Timer.publish(every: 30, on: .main, in: .common).autoconnect()) { _ in
+                refreshDate()
+                if backup.problem != nil { backup.update(context: modelContext) }
+            }
             .sheet(isPresented: $showDateSettings) { dateSettings }
             .sheet(isPresented: $showNotificationSettings) { ReminderSettingsView() }
+            .sheet(isPresented: $showBackupSettings, onDismiss: { preloadAnswer() }) { BackupSettingsView(backup: backup) }
     }
 
     /// Běžný obsah v jednom svislém ScrollView; délka historie neomezuje výšku karet.
@@ -264,6 +287,11 @@ struct ContentView: View {
                         .font(.subheadline)
                         .accessibilityIdentifier("editAnswer")
                 }
+                if backup.isConfigured {
+                    Label(backup.status, systemImage: backup.symbol)
+                        .font(.caption).foregroundStyle(backup.problem == nil ? Color.secondary : Color.orange)
+                        .accessibilityIdentifier("backupStatus")
+                }
             } else {
                 Text("Pro tento den nemáš zaznamenanou odpověď.")
                     .font(.subheadline).foregroundStyle(.secondary)
@@ -341,6 +369,7 @@ struct ContentView: View {
         }
         do {
             try AnswerStore.save(text, on: today, in: modelContext)
+            backup.update(context: modelContext)
             text = text.trimmingCharacters(in: .whitespacesAndNewlines)
             savedText = text
             saveStatus = "Uloženo v zařízení"

@@ -15,9 +15,10 @@ final class DiaryFlowTests: XCTestCase {
 
     /// Prohlížené datum a aktuální den jsou oddělené. „Půlnoc“ se simuluje v aplikaci,
     /// nikoli změnou systémového času telefonu nebo simulátoru.
-    private func launch(_ date: String, currentDay: String? = nil, largeText: Bool = false) {
+    private func launch(_ date: String, currentDay: String? = nil, largeText: Bool = false, backup: Bool = false) {
         app.launchArguments = ["--diary-test-store", storeID, "--diary-test-date", date,
                                "--diary-clock-date", currentDay ?? date, "--diary-hide-samples"]
+        if backup { app.launchArguments += ["--diary-test-backup", "--diary-test-signing"] }
         if largeText { app.launchArguments += ["-UIPreferredContentSizeCategoryName", "UICTContentSizeCategoryAccessibilityXXXL"] }
         app.launch()
         XCTAssertTrue(app.staticTexts["dailyQuestion"].waitForExistence(timeout: 10))
@@ -216,7 +217,7 @@ final class DiaryFlowTests: XCTestCase {
         XCTAssertFalse(app.staticTexts["totalAnswerCount"].exists)
         XCTAssertEqual(app.staticTexts["currentStreak"].label, "1 den v řadě")
         XCTAssertEqual(app.staticTexts["activityYearCaption"].label, "přehled roku 2026")
-        XCTAssertEqual(app.buttons["appVersion"].label, "v1.0.0")
+        XCTAssertEqual(app.buttons["appVersion"].label, "v1.1.0")
         XCTAssertFalse(app.buttons["testDateSettings"].exists)
         let menu = XCTAttachment(screenshot: app.screenshot())
         menu.name = "Nové postranní menu"
@@ -226,6 +227,7 @@ final class DiaryFlowTests: XCTestCase {
         XCTAssertFalse(app.buttons["testDateSettings"].exists)
         app.buttons["appVersion"].tap()
         XCTAssertTrue(app.buttons["testDateSettings"].waitForExistence(timeout: 5))
+        if !app.buttons["testDateSettings"].isHittable { app.swipeUp() }
         app.buttons["testDateSettings"].tap()
         let samples = app.switches["sampleHistoryToggle"]
         XCTAssertTrue(samples.waitForExistence(timeout: 5))
@@ -308,4 +310,39 @@ final class DiaryFlowTests: XCTestCase {
         attachment.lifetime = .keepAlways
         add(attachment)
     }
+    /// Testuje skutečný zápis do izolované složky, jeho přetrvání a nové prvky menu.
+    func testAutomaticBackupStatusAndSigningMenuSurviveRelaunch() {
+        launch("2026-10-13", backup: true)
+        write("Zalohovana odpoved.")
+        save()
+        let status = app.staticTexts["backupStatus"]
+        XCTAssertTrue(status.waitForExistence(timeout: 10))
+        XCTAssertTrue(app.staticTexts["Záložní soubor aktualizován"].waitForExistence(timeout: 10))
+        openMenu()
+        let signing = app.staticTexts["signingExpiration"]
+        for _ in 0..<5 where !signing.isHittable { app.swipeUp() }
+        XCTAssertTrue(signing.exists)
+        XCTAssertTrue(signing.label.contains("Platnost instalace do"))
+        let backupButton = app.buttons["backupSettings"]
+        if !backupButton.isHittable { app.swipeDown() }
+        backupButton.tap()
+        XCTAssertTrue(app.buttons["retryBackup"].waitForExistence(timeout: 5))
+        let restoreButton = app.buttons["restoreBackup"]
+        for _ in 0..<5 where !restoreButton.isHittable { app.swipeUp() }
+        XCTAssertTrue(restoreButton.waitForExistence(timeout: 5))
+        let attachment = XCTAttachment(screenshot: app.screenshot())
+        attachment.name = "Nastavení automatické zálohy"
+        attachment.lifetime = .keepAlways
+        add(attachment)
+        app.buttons["Zavřít"].tap()
+        app.terminate()
+        launch("2026-10-13", backup: true)
+        XCTAssertEqual(app.staticTexts["savedAnswer"].label, "Zalohovana odpoved.")
+        XCTAssertTrue(app.staticTexts["Záložní soubor aktualizován"].waitForExistence(timeout: 10))
+        edit()
+        write(" Uprava se take zalohuje.")
+        save()
+        XCTAssertTrue(app.staticTexts["Záložní soubor aktualizován"].waitForExistence(timeout: 10))
+    }
+
 }

@@ -121,7 +121,7 @@ final class NotificationManager {
                 guard try await center.requestAuthorization(options: [.alert, .sound]) else { throw ReminderError.permissionDenied }
                 status = await center.notificationSettings().authorizationStatus
             }
-            guard status == .authorized || status == .provisional || status == .ephemeral else { throw ReminderError.permissionDenied }
+            guard status.permitsDiaryAlerts else { throw ReminderError.permissionDenied }
             // Změna stejného ID nahradí starý požadavek; předem ho nemažeme.
             // Oznámení je nezávislé na odpovědi: denní připomínka může přijít i po zápisu.
             try await center.add(preferences.request())
@@ -129,5 +129,18 @@ final class NotificationManager {
             center.removePendingNotificationRequests(withIdentifiers: [ReminderPreferences.requestIdentifier])
         }
         try store.save(preferences)
+    }
+}
+
+/// Ephemeral oprávnění existuje jen pro iOS App Clips. Mac tuto enum hodnotu nemá;
+/// společná kontrola zachovává chování iPhonu a umožní datové testy i na Macu.
+nonisolated extension UNAuthorizationStatus {
+    var permitsDiaryAlerts: Bool {
+        if self == .authorized || self == .provisional { return true }
+        #if os(iOS)
+        return self == .ephemeral
+        #else
+        return false
+        #endif
     }
 }

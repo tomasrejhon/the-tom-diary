@@ -2,7 +2,7 @@
 
 ## Rozsah současné sady
 
-Projekt obsahuje **30 různých testů**: 20 ve Swift Testing a 10 UI testů XCTest. Z jednotkových testů je 19 funkčních a jeden prázdný test šablony. Z UI testů je 7 podrobných scénářů deníku, 1 kontrola orientace a 2 původní scénáře spuštění/výkonnosti.
+Verze 1.1.0 obsahuje **41 různých testů**: 30 ve Swift Testing a 11 UI testů XCTest. Jeden jednotkový test je prázdná původní šablona. Níže je původní matice verze 1.0.0; nové testy a výsledky jsou v poslední části této stránky.
 
 Počet úspěšných testů není počet jednotlivých assertions ani záruka otestování každé možné situace. UI kontrola přetrvání textu oznámení není test jeho skutečného doručení. Sestavení není test obnovy dat na jiném telefonu.
 
@@ -113,7 +113,7 @@ Uživatel 12. 10. uvedl, že aplikace na telefonu vypadá dobře a funguje, a po
 
 ## Co sada zatím nedokazuje
 
-Není ověřené obnovení na novém iPhonu, multi-device synchronizace, export/import, zátěž mnoha let zápisů, všechny kombinace časových pásem a ruční změny hodin, chování při nedostatku místa nebo poškozené databázi, kompletní ovládání VoiceOverem ani odeslání do App Store. Samostatné UI pro Mac, iPad, visionOS a widget nejsou součástí ověřené první verze.
+Není ověřené obnovení na novém fyzickém iPhonu ani skutečný přenos přes iCloud. Export/import JSON nyní ověřují datové testy a místní souborový picker. Další mezery jsou multi-device synchronizace, zátěž mnoha let zápisů, všechny kombinace časových pásem a ruční změny hodin, chování při nedostatku místa nebo poškozené databázi, kompletní ovládání VoiceOverem a odeslání do App Store. Samostatné UI pro Mac, iPad, visionOS a widget nejsou součástí ověřené první verze.
 
 Tyto oblasti jsou další možné kroky, nikoli tvrzení o hotových funkcích.
 
@@ -128,3 +128,19 @@ Podklady: [souhrn](TestResults/v1-final-fixes-2026-10-12.json), [UI výsledek](T
 Ruční kontrola běžné instalace simulátoru navíc ověřila skutečné doručení lokální připomínky ve 16:46 při aplikaci na pozadí. V centru oznámení bylo správné logo deníku, nadpis i obsah. Test byl ve světlém vzhledu iPhone 17 / iOS 27.0; nenahrazuje ověření na uživatelově fyzickém telefonu. [Snímek doručené notifikace](Assets/notifikace-logo-2026-10-12.png). Nastavení simulátoru se po kontrole vrátilo na vypnutou připomínku ve 20:00.
 
 Poslední fyzické potvrzení pochází přímo od uživatele: po aktualizaci zůstávala stará ikona, restart iPhonu ji opravil. Jde o ruční výsledek, nikoli další automatický test. Pro přípravu GitHubu se měnila pouze dokumentace a sledování souborů Gitem; funkční kód se znovu neměnil.
+
+## Rozšíření 1.1.0 — 13. 10. 2026
+
+Přibylo 7 metod `BackupTests`, 3 metody `SigningReminderTests` a UI scénář `testAutomaticBackupStatusAndSigningMenuSurviveRelaunch`. Zdrojová sada má nyní 41 metod: 30 datových / jednotkových včetně prázdné šablony a 11 UI. Nové případy popisuje [Zálohování a podpis](backup-and-signing.md#ověřování).
+
+Na Macu skutečně prošlo všech 30 jednotkových testů, 0 selhání, v 6 sadách. Zdroj výsledku je `Test-The Tom Diary Unit Tests-2026.10.13_20-57-13-+0200.xcresult`. XML payload existujícího fyzicky podepsaného Debug i Release balíčku obsahoval čitelné ExpirationDate a vývojové oprávnění. To není test doručení připomínky.
+
+První simulátorové běhy se zastavily při připojování testovacího procesu; nový iPhone 17e také hlásil timeout obrazovky. Xcode při ukončování oznámil chybu LLDB RPC serveru. Pozdější sestavení narazilo na `Resource temporarily unavailable` při spouštění swift-frontend. Tyto pokusy nejsou úspěšné testy. Sdílená schémata vypínají paralelní klony; pro dokončení ověřování se také vypnul debugger testů. Běžný Run má debugger nadále zapnutý.
+
+Ruční ověření na telefonu: aktualizace původní instalace bez smazání odpovědí; výběr soukromé složky iCloud Drive; obsah JSON po zápisu i úpravě; předchozí kopie; přenos do cloudu a stažení na jiném zařízení; obnova v prázdném testovacím deníku; odebrání přístupu ke složce a opakování; datum expirace v menu a skutečné doručení oznámení. Osobní data při testování nemaž.
+
+Na iPhone 17 / iOS 27.0 měl úplný běh ve 21:06 výsledek 40/41. Nový UI scénář narazil na odkaz obnovy mimo viditelnou část Form. Sekce obnovy se přesunula před delší vysvětlení a test nyní v případě potřeby posouvá obsah. Opakování dotčeného scénáře ve 21:18 prošlo: 1 test, 0 selhání, 45,436 s. Všech 41 metod má konečný úspěšný výsledek napříč těmito dvěma běhy; nejde o druhý úplný běh. [Strojový souhrn](TestResults/backup-signing-2026-10-13.json).
+
+Ruční kontrola běžné simulátorové instalace ve 21:30–21:32 prošla systémovým výběrem místní složky, vytvořením souboru, jeho následným výběrem k obnově, potvrzením a výsledkem dokončené obnovy. Deník byl prázdný; doplnění skutečných odpovědí a zachování existujících záznamů pokrývají datové testy. Tento krok nepoužíval iCloud účet ani osobní data.
+
+Finální Debug sestavení pro fyzický iPhone se ve 21:30 dostalo do podpisu `The Tom Didary.debug.dylib`. Dokončení zatím není potvrzené: Mac se zamkl a ovládání požaduje jeho ruční odemčení. Tento pokus se nezapočítává jako úspěšný fyzický build. Finální Release fyzický build zbývá. Simulátorová kompilace aktuálního kódu je potvrzená výše uvedenými testy.

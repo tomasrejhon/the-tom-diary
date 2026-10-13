@@ -77,3 +77,7 @@ Debug i Release pro fyzický iPhone uspěly; cílený UI scénář zápisu, úpr
 ## Uzavření osobní v1 a GitHub — 12. 10.
 
 Po potvrzení správné ikonky oznámení na telefonu uživatel schválil uložení projektu na GitHub. Zvolil soukromý repozitář `tomasrejhon/the-tom-diary`. Celý dosavadní funkční vývoj, testy, otázky, ikonka a dokumentace tvoří první souhrnný vývojový commit po původní šabloně; stav má značku `v1.0.0`. Místní nastavení Xcode se přestalo sledovat, soubor na počítači zůstal. Historie starších chatů se nepřepisovala na umělé commity.
+
+## Souborové zálohování a připomínka podpisu — 13. 10.
+
+Uživatel se zatím rozhodl zůstat u bezplatného Personal Team a obnovovat podpis přes Xcode. CloudKit se odložil. Požadoval automatickou aktualizaci záložního souboru po každé odpovědi, malý stav pod odpovědí, poslední zápis v menu, obnovu na novém telefonu a připomínku 24 hodin před vypršením podpisu. Vývoj probíhá ve větvi `feature/backup-and-signing-reminder`; původní `v1.0.0` zůstala zachovaná. Nové chování dokumentuje [Zálohování a podpis](backup-and-signing.md).

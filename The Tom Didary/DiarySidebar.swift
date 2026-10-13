@@ -7,6 +7,9 @@ struct DiarySidebar: View {
     let developerToolsUnlocked: Bool
     let close: () -> Void
     let notificationSettings: () -> Void
+    @ObservedObject var backup: BackupManager
+    @ObservedObject var signing: SigningReminder
+    let backupSettings: () -> Void
     let testSettings: () -> Void
     let unlockDeveloperTools: () -> Void
     @State private var versionTapCount = 0
@@ -59,6 +62,35 @@ struct DiarySidebar: View {
                     }
                     .buttonStyle(.plain)
                     .accessibilityIdentifier("notificationSettings")
+                    Button(action: backupSettings) {
+                        VStack(alignment: .leading, spacing: 6) {
+                            Label("Záloha a obnova", systemImage: "externaldrive")
+                                .font(.body.weight(.medium))
+                            Text(backup.status).font(.caption).foregroundStyle(.secondary)
+                            if let date = backup.lastWritten {
+                                Text("Poslední zápis: \(date.formatted(.dateTime.day().month().year().hour().minute().locale(Locale(identifier: "cs_CZ"))))")
+                                    .font(.caption).foregroundStyle(.secondary)
+                            }
+                        }
+                        .frame(maxWidth: .infinity, alignment: .leading).padding(.vertical, 10)
+                        .contentShape(Rectangle())
+                    }.buttonStyle(.plain).accessibilityIdentifier("backupSettings")
+                    Divider()
+                    VStack(alignment: .leading, spacing: 8) {
+                        Label(signing.menuText, systemImage: "clock")
+                            .font(.caption).foregroundStyle(.secondary)
+                            .accessibilityIdentifier("signingExpiration")
+                        if signing.profile != nil {
+                            Toggle("Připomenout obnovení", isOn: Binding(get: { signing.enabled }, set: { value in
+                                Task { await signing.setEnabled(value) }
+                            })).font(.subheadline).accessibilityIdentifier("signingReminderToggle")
+                            Text(signing.status).font(.caption).foregroundStyle(.secondary)
+                            if signing.enabled && signing.status == "Pro připomínku povol oznámení" {
+                                Button("Povolit oznámení") { Task { await signing.refresh(requestPermission: true) } }
+                                    .font(.caption).accessibilityIdentifier("allowSigningNotifications")
+                            }
+                        }
+                    }
                     if developerToolsUnlocked {
                         Button(action: testSettings) {
                             Label("Testovací nastavení", systemImage: "wrench.and.screwdriver")

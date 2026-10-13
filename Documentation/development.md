@@ -74,3 +74,7 @@ V `DiaryDate.swift` existuje i Debug konstanta `testDate`. Standardně je `nil`;
 Nejdříve ujasni pravidlo a postižené soubory, potom uprav kód. Pro změnu logiky spusť související jednotkové testy; pro změnu ovládání odpovídající UI scénář. Před vydáním zkontroluj sestavení Debug/Release a potřebný fyzický scénář. U malé úpravy komentářů není nutné přidávat test, který jen kopíruje implementaci.
 
 Chybu popiš tak, aby šla zopakovat: zařízení a iOS, verze aplikace, datum v aplikaci, kroky, očekávaný a skutečný výsledek, případně snímek. Více chyb může být v jedné zprávě, ale každá má vlastní číslo a postup. Je užitečné uvést, zda šlo o běžný režim nebo odemčené testovací nastavení.
+
+## Sdílená schémata od verze 1.1.0
+
+`The Tom Diary` obsahuje aplikaci a obě testovací sady. `The Tom Diary Unit Tests` spouští pouze jednotkové / datové testy. Obě schémata jsou v repozitáři a vypínají paralelní klony simulátorů. Host testů má samostatné UUID úložiště; UI scénáře navíc nastavují vlastní UUID při každém spuštění testovacího případu. Původní automaticky vytvořené schéma `The Tom Didary` může na stávajícím počítači zůstat viditelné. Pro běžnou instalaci vyber nové plné schéma, fyzický telefon a Run; argument izolovaného úložiště je pouze v TestAction, ne v LaunchAction.

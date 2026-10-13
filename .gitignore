@@ -2,6 +2,8 @@
 .DS_Store
 xcuserdata/
 *.xcuserstate
+# Původní automaticky vytvořené schéma ponecháme lokálně; používají se dvě nová sdílená.
+The Tom Didary.xcodeproj/xcshareddata/xcschemes/The Tom Didary.xcscheme
 
 # Výstupy sestavení a úplné balíčky testů. Malé shrnující JSONy v Documentation zůstávají.
 DerivedData/
@@ -21,3 +23,7 @@ build/
 .env
 .env.*
 !.env.example
+
+# Osobní exporty deníku nejsou zdrojový kód.
+The Tom Diary Backups/
+diary-backup*.json

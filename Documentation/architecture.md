@@ -85,3 +85,7 @@ Všechny cesty v této kapitole jsou relativní ke kořeni repozitáře.
 | `accessibilityIdentifier` | Stabilní technické označení prvku pro UI testy. Viditelný text nebo popisek pro VoiceOver se nastavuje zvlášť. |
 
 Příklady `#Preview` používají databázi pouze v paměti. Náhled Xcode není důkaz, že odpověď přežije ukončení aplikace; to ověřují samostatné testy trvalého úložiště.
+
+## Rozšíření ve verzi 1.1.0
+
+Zálohování nemění model `Answer` ani identitu databáze. Nové soubory a jejich odpovědnosti popisuje [Zálohování a podpis](backup-and-signing.md#soubory). `ContentView` po úspěšném místním save předává snapshot správci zálohy; menu zobrazuje správce jako pozorované objekty. Souborové operace provádí samostatný aktor. `SigningReminder` používá skutečný profil podepsané aplikace a vlastní ID oznámení.

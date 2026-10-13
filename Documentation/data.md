@@ -32,7 +32,7 @@ SwiftData uchovává odpovědi v datovém prostoru konkrétní instalace. Běžn
 
 Jedinečnost dne nyní zajišťuje tato ukládací cesta, **nikoli databázový unique constraint**. Před budoucím importem a synchronizací bude třeba navrhnout slučování duplicit, stabilní identitu a konflikty. V1 nemá mazání odpovědí ani import/export.
 
-**Cloud není zapnutý.** Aplikace nemá nakonfigurovaný CloudKit kontejner ani vlastní přenos na nové zařízení. Běžná systémová záloha telefonu je samostatná funkce iOS; v tomto projektu jsme neověřili obnovu databáze ze zálohy. Git zálohuje vývojové soubory, ne osobní deník. Aktualizace existující instalace se stejnou identitou zachovává její datový prostor; odinstalování jej odstraní.
+**CloudKit není zapnutý.** Verze 1.1.0 přidává záložní JSON ve vybrané složce a obnovu chybějících dnů; podrobnosti jsou v [Zálohování a podpis](backup-and-signing.md). Přenos souboru do iCloudu zajišťuje systémový poskytovatel. Běžná systémová záloha telefonu je samostatná funkce iOS; v tomto projektu jsme neověřili obnovu databáze ze zálohy. Git zálohuje vývojové soubory, ne osobní deník. Aktualizace existující instalace se stejnou identitou zachovává její datový prostor; odinstalování jej odstraní.
 
 ## Dnešek, editor a půlnoc
 
