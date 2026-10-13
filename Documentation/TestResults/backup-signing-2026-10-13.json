@@ -49,10 +49,31 @@
     "restoreCompletion": true,
     "answersInManualFixture": 0
   },
-  "finalPhysicalBuild": {
-    "configuration": "Debug",
-    "status": "waitingForLocalSigning",
-    "lastObservedStep": "Sign The Tom Didary.debug.dylib",
-    "macLocked": true
-  }
+  "finalPhysicalBuilds": [
+    {
+      "configuration": "Release",
+      "status": "succeeded",
+      "device": "Tomas - iPhone / iOS 27.0",
+      "source": "5F8ECB4F-3094-4CD5-AA9C-F6C519C67151.xcactivitylog",
+      "errors": 0,
+      "warnings": 7,
+      "completed": "2026-10-13T21:45:34.180863+02:00",
+      "version": "1.1.0",
+      "bundleIdentifier": "My.The-Tom-Didary",
+      "embeddedProfileExpiryUTC": "2026-10-16T14:57:20Z"
+    },
+    {
+      "configuration": "Debug",
+      "status": "succeeded",
+      "device": "Tomas - iPhone / iOS 27.0",
+      "source": "870588C7-1402-4484-9098-8AD3056BFE31.xcactivitylog",
+      "errors": 0,
+      "warnings": 7,
+      "completed": "2026-10-13T21:43:57.830510+02:00",
+      "version": "1.1.0",
+      "bundleIdentifier": "My.The-Tom-Didary",
+      "embeddedProfileExpiryUTC": "2026-10-16T14:57:20Z"
+    }
+  ],
+  "finalCodeReview": "No material data loss or restore issue found in an independent read-only review."
 }
