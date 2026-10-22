@@ -6,7 +6,8 @@ Aplikace používá **SwiftUI** pro obrazovky, **SwiftData** pro odpovědi a **U
 
 ```mermaid
 flowchart TD
-    App[The_Tom_DidaryApp: společný ModelContainer] --> View[ContentView: hlavní obrazovka a UI stav]
+    App[The_Tom_DidaryApp: společný ModelContainer] --> Root[DiaryRootView: krátké intro při spuštění]
+    Root --> View[ContentView: hlavní obrazovka a UI stav]
     DB[(Lokální SwiftData: Answer)] -->|Query| View
     JSON[Vestavěný JSON: 366 otázek] --> Provider[QuestionProvider: načtení a kontrola]
     Provider --> View
@@ -37,6 +38,7 @@ Všechny cesty v této kapitole jsou relativní ke kořeni repozitáře.
 | `The Tom Didary/QuestionProvider.swift` | Hodnota `Question`, načtení JSONu, převod českých dat a kontrola úplnosti, platnosti, duplicity a délky emoji. `loadError` dovolí zobrazit chybu na stránce. |
 | `The Tom Didary/Resources/denik_otazky_kompletni_final_v2.json` | 366 záznamů s klíči `datum`, `otazka`, `emoji`. Toto je katalog otázek, nikoli databáze odpovědí. |
 | `The Tom Didary/DiaryDate.swift` | Gregoriánský kalendář v aktuálním pásmu, přísné zpracování RRRR-MM-DD, formátování technického data a porovnání kalendářních dnů. Odděluje den prohlížení a skutečný čas; izolovaný Debug UI test může čas simulovat. |
+| `The Tom Didary/DiaryRootView.swift` | Kořen aplikace a `LaunchIntroductionView`: logo na celé obrazovce po 2,5 sekundy, poté krátké prolnutí. Stav je jen v paměti; návrat z pozadí intro neopakuje. Zápisník je připojený pod intrem a připravuje se souběžně. |
 | `The Tom Didary/ContentView.swift` | Hlavní stránka s nadpisem „Roční zápisník otázek“, editor/čtecí karta, minulé roky, skrytý výběr data a celostránkové menu. Obsahuje `HistoryEntry` a dočasný `ClosedDraft`, zpracovává přechod na pozadí a změnu dne. |
 | `The Tom Didary/DiarySidebar.swift` | Obsah menu: název, zavření, počty, rok, série, nastavení a patička. Dostává hodnoty a akce od rodiče. Pět klepnutí na verzi odemkne testovací položku. |
 | `The Tom Didary/DiaryStatistics.swift` | Čisté výpočty z dat odpovědí: deduplikace dnů, ignorování budoucnosti, letošní/celkový součet, odložení celkového součtu, aktuální série a týdny pro přehled roku. |
@@ -45,6 +47,7 @@ Všechny cesty v této kapitole jsou relativní ke kořeni repozitáře.
 | `The Tom Didary/ReminderSettingsView.swift` | Formulář zapnutí, času, nadpisu a obsahu s náhledem. Pracovní kopie se uloží až tlačítkem Uložit; při chybě se formulář nezavře. |
 | `The Tom Didary/HistoryDemo.swift` | Čtyři dlouhé ukázkové texty pro předchozí roky. Vytváří pouze `HistoryEntry`, nikoli SwiftData objekty. Ukázky se nikdy nezapočítají ani nezapisují. |
 | `The Tom Didary/Item.swift` | Nepoužitý model původní šablony Xcode. Není v aktivním schématu a není úložištěm deníku. |
+| `The Tom Didary/Assets.xcassets/DiaryLaunchArtwork.imageset/` | Kopie stejného 1024px obrázku jako u ikonky, dostupná běžnému SwiftUI `Image`. AppIcon sám není obrázkový asset pro obsah obrazovky. |
 | `The Tom Didary/Assets.xcassets/Contents.json` | Metadata katalogu obrázků. |
 | `The Tom Didary/Assets.xcassets/AccentColor.colorset/Contents.json` | Výchozí položka barvy akcentu. Současná tlačítka používají systémový vzhled. |
 | `The Tom Didary/Assets.xcassets/AppIcon.appiconset/Contents.json` | Přiřazení konkrétních velikostí ikonky pro iPhone/iPad a App Store. Zahrnuje malé ikony oznámení; prázdné varianty dark/tinted odstraněné. |

@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-22",
+  "version": "1.1.1",
+  "build": "2",
+  "test": {
+    "name": "DiaryFlowTests.testSaveEditRelaunchAndBackground",
+    "result": "passed",
+    "durationSeconds": 46.375,
+    "source": "Test-The Tom Diary-2026.10.22_12-42-59-+0200.xcresult",
+    "evidence": "Xcode test console: test case and Selected tests suite passed",
+    "scope": "Save, edit, relaunch persistence and background autosave with the intro present; isolated UUID test store."
+  },
+  "manual": {
+    "simulator": "iPhone 17 / iOS 27.0",
+    "introAppearance": "verified",
+    "automaticTransitionToDiary": "verified",
+    "resumeWithoutReplayingIntro": "verified"
+  },
+  "screenshot": "../Assets/intro-2026-10-22.png",
+  "limitations": [
+    "No new automated test was added for this visual change.",
+    "The test does not measure exact on-screen duration or independently assert absence of intro on resume."
+  ],
+  "builds": {
+    "releaseIPhone": {
+      "result": "succeeded",
+      "errors": 0,
+      "warnings": 7,
+      "log": "67B5316F-D39F-4A28-8507-DF801DCBD2F7.xcactivitylog",
+      "configurationEvidence": "Release-iphoneos in build log",
+      "version": "1.1.1",
+      "build": "2"
+    },
+    "debugIPhone": {
+      "result": "succeeded",
+      "log": "43300ACF-03E5-4EFF-83AF-747B4E9DEF8F.xcactivitylog",
+      "errors": 0,
+      "warnings": 7,
+      "debugIPhoneInLog": true,
+      "bundleID": "My.The-Tom-Didary",
+      "version": "1.1.1",
+      "build": "2",
+      "profileTTL": 365,
+      "profileExpiry": "2027-10-22T12:22:05+02:00"
+    }
+  },
+  "physicalIPhone": "Xcode confirmed Running The Tom Didary on Tomáš - iPhone after user unlocked the device; visual approval of intro on phone pending"
+}

@@ -1,6 +1,6 @@
 # Dokumentace The Tom Diary
 
-Tato dokumentace vysvětluje současný kód i postup vývoje. Je psaná pro návrat k projektu po delší době a pro postupné porozumění SwiftUI. Obsahuje výchozí v1.0.0 i rozpracování v1.1.0 z 13. 10. 2026; historické výsledky mají uvedený vlastní den a prostředí.
+Tato dokumentace vysvětluje současný kód i postup vývoje. Je psaná pro návrat k projektu po delší době a pro postupné porozumění SwiftUI. Obsahuje výchozí v1.0.0, zálohování v1.1.0 a intro v1.1.1 z 22. 10. 2026; historické výsledky mají uvedený vlastní den a prostředí.
 
 ## Doporučené pořadí čtení
 

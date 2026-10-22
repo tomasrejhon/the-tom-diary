@@ -144,3 +144,13 @@ Na iPhone 17 / iOS 27.0 měl úplný běh ve 21:06 výsledek 40/41. Nový UI sc�
 Ruční kontrola běžné simulátorové instalace ve 21:30–21:32 prošla systémovým výběrem místní složky, vytvořením souboru, jeho následným výběrem k obnově, potvrzením a výsledkem dokončené obnovy. Deník byl prázdný; doplnění skutečných odpovědí a zachování existujících záznamů pokrývají datové testy. Tento krok nepoužíval iCloud účet ani osobní data.
 
 Po ručním odemčení Macu a potvrzení Klíčenky uživatelem dokončil fyzický Debug build podpis ve 21:43. Release build následně uspěl ve 21:45. Oba výsledné balíčky mají verzi 1.1.0, původní bundle ID a čitelný vývojový profil; build protokoly potvrzují 0 chyb a 7 upozornění. Upozornění se týkají existující definice App Store ikony, orientace iPadu a chybějícího AppIntents.framework; nejsou to selhání zálohování. Xcode se vrátil na schéma The Tom Diary / Debug / fyzický iPhone. Proběhlo pouze sestavení; aktualizaci telefonu a skutečný iCloud přenos uživatel provede ručně. Nezávislá kontrola nových souborů nenašla závažnou chybu způsobující ztrátu dat.
+
+## Intro 1.1.1 — 22. 10. 2026
+
+Na simulátoru iPhone 17 / iOS 27.0 prošel existující `testSaveEditRelaunchAndBackground`: 1 cílený test, 0 selhání, 46,375 s. Xcode potvrdil úspěch testovací metody i sady Selected tests; výsledek je `Test-The Tom Diary-2026.10.22_12-42-59-+0200.xcresult`. Test používá oddělené UUID úložiště a ověřuje ukládání, úpravu, přetrvání po restartu a automatické uložení na pozadí i s novým kořenem obrazovky. Celá sada se pro tuto vizuální změnu neopakovala a nepřidával se test kopírující časovací konstantu.
+
+Ruční kontrola běžného simulátoru zachytila celé logo bez ořezu, měkké napojení pozadí a následný přechod do hlavní stránky. Návrat přes plochu do stále běžící aplikace zobrazil rovnou zápisník bez opakování intra. Délka intra je v kódu 2,5 s plus prolnutí, nejde o samostatně změřenou dobu systémového startu. [Náhled](Assets/intro-2026-10-22.png), [záznam výsledku](TestResults/intro-2026-10-22.json).
+
+Debug i Release pro fyzický iPhone uspěly bez chyb; konfigurace potvrzené v build logu. Oba balíčky mají verzi 1.1.1 / build 2 a původní identitu aplikace. Ve vývojovém Debug balíčku je stále roční placený profil. Sedm existujících upozornění sestavení se týká konfigurace ikony, iPadu a App Intents. Xcode při instalaci čekal na odemknutí telefonu; samotný build nedokazuje spuštění na zařízení.
+
+Po odemknutí telefonu uživatelem Xcode potvrdil „Running The Tom Didary on Tomáš - iPhone“. Nová verze je tedy nainstalovaná a spuštěná. Vizuální posouzení intra na vlastním telefonu provede uživatel; náhled výše pochází ze simulátoru.

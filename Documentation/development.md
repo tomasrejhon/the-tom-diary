@@ -66,6 +66,7 @@ V `DiaryDate.swift` existuje i Debug konstanta `testDate`. Standardně je `nil`;
 | Počty / sérii / výročí | `DiaryStatistics.swift` a jeho testy. |
 | Pravidla ukládání | `AnswerStore.swift` a `DiaryDate.swift`; zachovat kontrolu i před zápisem do databáze. |
 | Oznámení | `NotificationManager.swift`, `ReminderSettingsView.swift` a `ReminderTests`. |
+| Intro při spuštění | `DiaryRootView.swift`: délka je v `Task.sleep`, prolnutí ve `withAnimation`. Podklad je `DiaryLaunchArtwork.imageset`; po návratu z pozadí se intro neopakuje. |
 | Ikonku | `Assets.xcassets/AppIcon.appiconset`; viz [návod](icon.md). |
 | Verzi | MARKETING_VERSION hlavního targetu v Debug i Release. Číslo buildu je CURRENT_PROJECT_VERSION. |
 

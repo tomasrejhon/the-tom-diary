@@ -4,9 +4,11 @@ Osobní deník pro iPhone: každý den jedna otázka, vlastní odpověď a vzpom
 
 Hlavní stránka má nadpis **Roční zápisník otázek**. Zdrojový projekt a jeho další vývoj jsou v soukromém repozitáři [tomasrejhon/the-tom-diary](https://github.com/tomasrejhon/the-tom-diary). Výchozí funkční verze je označená značkou `v1.0.0`.
 
-**Vývoj verze 1.1.0, build 1.** Stabilní výchozí verze má značku `v1.0.0`. Aktuální technická dokumentace zachycuje stav z 13. října 2026. První verze je určená především pro osobní používání na iPhonu. CloudKit synchronizace, widget a samostatně doladěná verze pro Mac jsou další etapy.
+**Vývoj verze 1.1.1, build 2.** Stabilní výchozí verze má značku `v1.0.0`. Aktuální technická dokumentace zachycuje stav z 22. října 2026. První verze je určená především pro osobní používání na iPhonu. CloudKit synchronizace, widget a samostatně doladěná verze pro Mac jsou další etapy.
 
-Nová verze přidává automatickou souborovou zálohu po každém uložení odpovědi, obnovu chybějících dnů a připomínku platnosti vývojového podpisu. Nastavení a meze jsou v [Zálohování a podpis](Documentation/backup-and-signing.md).
+Verze 1.1.1 přidává 2,5sekundové intro s logem při novém spuštění aplikace; při návratu z pozadí se neopakuje. [Náhled](Documentation/Assets/intro-2026-10-22.png).
+
+Verze 1.1.0 přidala automatickou souborovou zálohu po každém uložení odpovědi, obnovu chybějících dnů a připomínku platnosti vývojového podpisu. Nastavení a meze jsou v [Zálohování a podpis](Documentation/backup-and-signing.md).
 
 ## Spuštění
 

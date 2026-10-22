@@ -81,3 +81,9 @@ Po potvrzení správné ikonky oznámení na telefonu uživatel schválil ulože
 ## Souborové zálohování a připomínka podpisu — 13. 10.
 
 Uživatel se zatím rozhodl zůstat u bezplatného Personal Team a obnovovat podpis přes Xcode. CloudKit se odložil. Požadoval automatickou aktualizaci záložního souboru po každé odpovědi, malý stav pod odpovědí, poslední zápis v menu, obnovu na novém telefonu a připomínku 24 hodin před vypršením podpisu. Vývoj probíhá ve větvi `feature/backup-and-signing-reminder`; původní `v1.0.0` zůstala zachovaná. Nové chování dokumentuje [Zálohování a podpis](backup-and-signing.md).
+
+## Placené podepisování a úvodní obrazovka — 22. 10. 2026
+
+Po aktivaci placeného Apple Developer členství se obnovilo přihlášení účtu v Xcode a vygeneroval nový spravovaný profil. Profil v podepsaném Debug balíčku má TTL 365 dní a expiraci 22. 10. 2027 ve 12:22 Europe/Prague. Team ID, application identifier i bundle ID zůstaly stejné. Xcode potvrdil spuštění aktualizace na fyzickém iPhonu a uživatel potvrdil novou platnost v menu. Tento krok neměnil zdrojový kód.
+
+Na další přání vzniklo krátké intro s původním logem The Tom Diary. Verze 1.1.1 / build 2 jej zobrazuje 2,5 sekundy při novém spuštění procesu, následuje prolnutí 0,35 s (0,15 s při Reduce Motion). Návrat z pozadí je neopakuje. Nejde o potvrzení načtení či synchronizace zálohy. Načítání hlavní stránky probíhá souběžně; intro její obsah do dokončení skryje před dotykem i VoiceOverem. Datový model a pravidla ukládání se nemění.

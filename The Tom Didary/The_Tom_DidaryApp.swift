@@ -39,7 +39,7 @@ struct The_Tom_DidaryApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            DiaryRootView()
         }
         .modelContainer(sharedModelContainer)
     }

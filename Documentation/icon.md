@@ -53,3 +53,7 @@ Po aktualizaci existující instalace nastav novou připomínku na několik minu
 Skutečné doručení se správným logem bylo následně ověřené také v běžné instalaci simulátoru iPhone 17 / iOS 27.0 ve světlém vzhledu. Připomínka přišla ve 16:46 s aplikací na pozadí; [náhled](Assets/notifikace-logo-2026-10-12.png) zachycuje reálné oznámení. Po kontrole se testovací nastavení vrátilo na vypnuto / 20:00.
 
 Uživatel 12. 10. potvrdil, že restart skutečného iPhonu problém se starou ikonkou vyřešil. Reinstalace nebyla k této opravě potřeba. Vliv cache zůstává vysvětlením vyvozeným z pozorovaného výsledku.
+
+## Logo v intru — 22. 10. 2026
+
+`Assets.xcassets/DiaryLaunchArtwork.imageset/DiaryLaunchArtwork.png` je přesná kopie finálního `AppIcon-1024.png`. SwiftUI používá běžný image set; systémový AppIcon se přímo do obsahu obrazovky nevkládá. Při budoucí výměně loga aktualizuj také tento obrázek, aby se ikona a intro nerozcházely. Měkké okraje a rozostřené pozadí kreslí SwiftUI za běhu, zdrojový motiv se nepřekresloval.
